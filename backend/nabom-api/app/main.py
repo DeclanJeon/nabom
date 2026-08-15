@@ -624,7 +624,8 @@ public_profile = living.public_profile
 
 @app.get("/healthz")
 def healthz():
-    return {"status": "ok", "service": "nabom-api", "store_driver": "sqlite", "profile_count": store.count("profiles"), "mirror_count": store.count("mirrors")}
+    driver = type(store).__name__.replace("Store", "").lower()
+    return {"status": "ok", "service": "nabom-api", "store_driver": driver, "profile_count": store.count("profiles"), "mirror_count": store.count("mirrors")}
 
 
 @app.post("/api/v1/living/profiles/initial")
