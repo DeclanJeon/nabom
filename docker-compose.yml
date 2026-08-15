@@ -51,6 +51,10 @@ services:
       SAJU_ENGINE_URL: http://127.0.0.1:8001
       ICHING_ENGINE_URL: http://127.0.0.1:8002
       NABOM_GENERATE_CHARACTERS: "0"
+      # 캐릭터 카탈로그 경로 (웹과 공유)
+      NABOM_CHARACTER_DIR: /app/frontend/public/characters
+    volumes:
+      - ./frontend/public/characters:/app/frontend/public/characters:ro
     ports:
       - "8088:8080"
 
@@ -66,13 +70,16 @@ services:
     command: sh -c "npx next dev -p 3000"
     volumes:
       - ./frontend:/app
-      - nabom_characters:/app/public/characters/stage
+      # 캐릭터 카탈로그는 호스트 디렉토리 직접 마운트 (볼륨 복사 의존 제거)
+      - ./frontend/public/characters/stage:/app/public/characters/stage:ro
     ports:
       - "3088:3000"
 
+  # 캐릭터 카탈로그 초기 복사 (볼륨 대신 호스트 직접 마운트로 대체됨 — 유지용)
   character-assets:
     image: alpine:3.20
     restart: "no"
+    profiles: ["legacy"]
     volumes:
       - ./frontend/public/characters/stage:/src:ro
       - nabom_characters:/dst
