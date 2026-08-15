@@ -1,0 +1,84 @@
+# NABOM production stack — 전용 PostgreSQL/Redis + engines + facade + web.
+# 캐릭터 카탈로그(frontend/public/characters/stage)는 볼륨으로 마운트한다.
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: nabom
+      POSTGRES_PASSWORD: ${NABOM_DB_PASSWORD:?set NABOM_DB_PASSWORD}
+      POSTGRES_DB: nabom
+    volumes:
+      - nabom_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nabom -d nabom"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - nabom_redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  backend:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      NABOM_STORE_DRIVER: postgres
+      DATABASE_URL: postgresql://nabom:${NABOM_DB_PASSWORD}@postgres:5432/nabom
+      NABOM_RATE_LIMIT_DRIVER: redis
+      REDIS_URL: redis://redis:6379/1
+      NABOM_ADMIN_USER_IDS: ${NABOM_ADMIN_USER_IDS:-}
+      NABOM_GOOGLE_CLIENT_ID: ${NABOM_GOOGLE_CLIENT_ID:-}
+      NABOM_GOOGLE_CLIENT_SECRET: ${NABOM_GOOGLE_CLIENT_SECRET:-}
+      NABOM_GOOGLE_REDIRECT_URI: ${NABOM_GOOGLE_REDIRECT_URI:-}
+      NABOM_MAIL_ENABLED: ${NABOM_MAIL_ENABLED:-0}
+      NABOM_SMTP_ENV_FILE: ""
+      SAJU_ENGINE_URL: http://127.0.0.1:8001
+      ICHING_ENGINE_URL: http://127.0.0.1:8002
+      NABOM_GENERATE_CHARACTERS: "0"
+    ports:
+      - "8088:8080"
+
+  web:
+    image: node:20-alpine
+    restart: unless-stopped
+    depends_on:
+      - backend
+    working_dir: /app
+    environment:
+      NEXT_PUBLIC_NABOM_API: http://localhost:8088
+      NABOM_API_URL: http://backend:8080
+    command: sh -c "npx next dev -p 3000"
+    volumes:
+      - ./frontend:/app
+      - nabom_characters:/app/public/characters/stage
+    ports:
+      - "3088:3000"
+
+  character-assets:
+    image: alpine:3.20
+    restart: "no"
+    volumes:
+      - ./frontend/public/characters/stage:/src:ro
+      - nabom_characters:/dst
+    command: sh -c "cp -rn /src/. /dst/ || true; echo 'character assets copied'"
+
+volumes:
+  nabom_pgdata:
+  nabom_redis:
+  nabom_characters:
