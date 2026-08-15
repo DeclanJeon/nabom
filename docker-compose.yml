@@ -59,19 +59,15 @@ services:
       - "8088:8080"
 
   web:
-    image: node:20-alpine
+    build:
+      context: .
+      dockerfile: Dockerfile.web
     restart: unless-stopped
     depends_on:
       - backend
-    working_dir: /app
     environment:
-      NEXT_PUBLIC_NABOM_API: http://localhost:8088
+      NEXT_PUBLIC_NABOM_API: https://nabom.ponslink.com
       NABOM_API_URL: http://backend:8080
-    command: sh -c "npx next dev -p 3000"
-    volumes:
-      - ./frontend:/app
-      # 캐릭터 카탈로그는 호스트 디렉토리 직접 마운트 (볼륨 복사 의존 제거)
-      - ./frontend/public/characters/stage:/app/public/characters/stage:ro
     ports:
       - "3088:3000"
 

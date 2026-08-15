@@ -1,0 +1,25 @@
+# NABOM web — Next.js 프로덕션 빌드 (standalone)
+FROM node:20-alpine AS deps
+WORKDIR /app
+COPY frontend/package.json frontend/package-lock.json* frontend/bun.lock* ./
+RUN npm install --no-audit --no-fund 2>/dev/null || npm install --no-audit --no-fund --legacy-peer-deps
+
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY frontend/ ./
+ENV NEXT_PUBLIC_NABOM_API=https://nabom.ponslink.com
+# build 스크립트가 standalone 생성 + static/public 복사
+RUN npm run build 2>&1 | tail -12
+
+FROM node:20-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production \
+    NEXT_TELEMETRY_DISABLED=1
+# standalone 서버 (node_modules·.next 포함 self-contained)
+COPY --from=builder /app/.next/standalone ./
+# static은 standalone/.next/static으로 build 스크립트가 복사함 — public도 필요
+COPY --from=builder /app/.next/static ./.next/static
+COPY --from=builder /app/public ./public
+EXPOSE 3000
+CMD ["node", "server.js"]
