@@ -1,0 +1,13 @@
+branch_code,order_no,ko_name,hanja_name,animal_ko,animal_hanja,element_code,yinyang,time_range,lunar_month,season,direction_hint,hidden_stems,core_traits,animal_visual_seed,source_ref
+ja,1,자,子,쥐,鼠,water,yang,23:00-01:00,11,한겨울,북,癸,지혜;기민함;시작;정보수집,small_rat;night_water;bright_eyes,/명리학/03_지지/ja.md
+chuk,2,축,丑,소,牛,earth,yin,01:00-03:00,12,늦겨울,북동,己;辛;癸,인내;실속;저장;끈기,sturdy_ox;frozen_soil;gentle_horns,/명리학/03_지지/chuk.md
+in,3,인,寅,호랑이,虎,wood,yang,03:00-05:00,1,초봄,동북,甲;丙;戊,추진;리더십;개척;용맹,tiger;spring_forest;dynamic_stripes,/명리학/03_지지/in.md
+myo,4,묘,卯,토끼,兎,wood,yin,05:00-07:00,2,봄,동,乙,감성;섬세함;미감;유연함,rabbit;flower_field;soft_ears,/명리학/03_지지/myo.md
+jin,5,진,辰,용,龍,earth,yang,07:00-09:00,3,늦봄,동남,戊;乙;癸,비전;복합성;저장;포부,dragon;cloud_soil;pearl,/명리학/03_지지/jin.md
+sa,6,사,巳,뱀,蛇,fire,yin,09:00-11:00,4,초여름,남동,丙;庚;戊,통찰;변화;재생;분석,snake;warm_scale;wisdom_eye,/명리학/03_지지/sa.md
+o,7,오,午,말,馬,fire,yang,11:00-13:00,5,한여름,남,丁;己,활력;열정;속도;표현,horse;midday_sun;flame_mane,/명리학/03_지지/o.md
+mi,8,미,未,양,羊,earth,yin,13:00-15:00,6,늦여름,남서,己;丁;乙,포근함;예술성;헌신;성숙,sheep;warm_field;soft_wool,/명리학/03_지지/mi.md
+sin,9,신,申,원숭이,猴,metal,yang,15:00-17:00,7,초가을,서남,庚;壬;戊,학습;재주;민첩;판단,monkey;metal_branch;clever_pose,/명리학/03_지지/sin-ji.md
+yu,10,유,酉,닭,鷄,metal,yin,17:00-19:00,8,가을,서,辛,정밀;미감;규칙;완성,rooster;silver_feather;clock_sense,/명리학/03_지지/yu.md
+sul,11,술,戌,개,犬,earth,yang,19:00-21:00,9,늦가을,서북,戊;辛;丁,충직;정의;보호;내면불꽃,dog;loyal_guard;warm_tail,/명리학/03_지지/sul.md
+hae,12,해,亥,돼지,豚,water,yin,21:00-23:00,10,초겨울,북서,壬;甲,포용;풍요;마무리;새씨앗,pig;deep_water;rounded_form,/명리학/03_지지/hae.md

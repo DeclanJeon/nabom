@@ -1,0 +1,56 @@
+# 워크플로 상태
+.gjc/
+.gjc_state/
+*_session-*/
+.session-*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# 환경·비밀
+.env
+.env.local
+.env.*.local
+*.pem
+
+# 데이터·백업
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+backups/
+
+# 로그
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 캐릭터 생성 중간 산출물 (raw/cut)
+docs/tmp/imagegen/**/catalog-raw/
+docs/tmp/imagegen/**/catalog-cut/
+docs/tmp/imagegen/**/state-raw/
+docs/tmp/imagegen/**/state-cut/
+
+# 별도 프로젝트 산출물
+docs/saju-life-guide/
+
+# 주역 워크플로 상태
+docs/주역/.gjc/
+
+# 캐릭터 카탈로그 (416MB 정적 에셋 — 배포 시 서버 복사)
+frontend/public/characters/stage/

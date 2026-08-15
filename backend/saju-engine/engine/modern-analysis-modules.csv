@@ -1,0 +1,11 @@
+module_code,source_codes,ko_name,input_dependencies,output_field_key,design_rule,source_tables
+beginner_onboarding_flow,modern-sulsul;modern-nae-saju,입문 흐름,birth_datetime;four_pillars,modern_learning_explainer,기초 개념부터 고급 판단까지 단계형 설명을 만든다,saju-foundations.csv;modern-principles.csv
+ganji_profile_summary,modern-nae-saju,간지 프로필,four_pillars;eight_characters,modern_ganji_profile,천간 지지 60갑자를 현대어 성향 요약으로 묶는다,gapja-combinations.csv;heavenly-stems.csv;earthly-branches.csv;modern-principles.csv
+ten_god_social_profile,modern-nae-saju;modern-honja,십신 관계 프로필,ten_god_profile;pillar_positions,modern_ten_god_social_profile,십신을 사회적 역할 욕구 관계 패턴으로 번역한다,ten-god-rules.csv;ten-god-traits.csv;modern-principles.csv
+day_master_strength_explainer,modern-sulsul,일간 강약 설명,day_master;month_branch;rooting,modern_learning_explainer,신강신약 득령 득지 득세를 초보자용 근거 문장으로 설명한다,classical-seasonal-use-god-rules.csv;modern-principles.csv
+relationship_event_triggers,modern-sulsul;modern-honja,관계 사건 트리거,heavenly_relationships;branch_relationships,modern_event_trigger_profile,합충형파해를 변화 압력과 대응 포인트로 요약한다,earthly-branch-relationships.csv;heavenly-stem-relationships.csv;modern-principles.csv
+hidden_stem_activation,modern-honja,지장간 활성화,branch_relationships;hidden_stems,modern_event_trigger_profile,충출 후보를 지장간 의미 활성화로 표시한다,hidden-stems.csv;earthly-branch-relationships.csv;modern-principles.csv
+consultation_domain_mapper,modern-honja;modern-puli,상담 영역 매핑,pattern_assessment;ten_god_social_profile;event_triggers,modern_consultation_guidance,직업 재물 관계 결혼 법적 이슈 같은 상담 질문으로 결과를 묶는다,modern-principles.csv;special-star-rules.csv;analysis-output-fields.csv
+modern_plain_language_renderer,modern-sulsul;modern-puli,현대어 렌더러,all_analysis_outputs,plain_language_guardrail,길흉 단정을 조건 추세 선택지 조언 문장으로 바꾼다,modern-principles.csv;classical-analysis-modules.csv
+learning_tooltip_terms,modern-sulsul;modern-nae-saju,용어 툴팁,technical_terms,modern_learning_explainer,전문 용어마다 한글 현대어 풀이를 붙인다,modern-principles.csv;saju-foundations.csv
+visual_color_guidance,modern-puli,색채 보조 신호,element_balance;gapja_asset_prompt,modern_consultation_guidance,오행 색상을 이미지 프롬프트와 생활 조언의 보조 표현으로 사용한다,elements.csv;gapja-assets.csv;modern-principles.csv

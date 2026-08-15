@@ -1,0 +1,71 @@
+case_id,source_code,line_no,detected_gapja_count,detected_gapja_sequence,parsed_pillar_count,parse_quality,parser_note
+classic-pungsu-yeokgyeong|case-01,classic-pungsu-yeokgyeong,4537,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-pungsu-yeokgyeong|case-02,classic-pungsu-yeokgyeong,2466,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-pungsu-yeokgyeong|case-03,classic-pungsu-yeokgyeong,401,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-pungsu-yeokgyeong|case-04,classic-pungsu-yeokgyeong,212,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-pungsu-yeokgyeong|case-05,classic-pungsu-yeokgyeong,415,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-gungtongbogam|case-01,classic-gungtongbogam,542,1,戊辰,1,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-gungtongbogam|case-02,classic-gungtongbogam,150,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-gungtongbogam|case-03,classic-gungtongbogam,505,3,己卯;甲申;乙亥,3,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-gungtongbogam|case-04,classic-gungtongbogam,4040,1,丙午,1,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-gungtongbogam|case-05,classic-gungtongbogam,4859,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon|case-01,classic-japyeongjinjeon,6647,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon|case-02,classic-japyeongjinjeon,12707,4,壬申;甲戌;乙亥;己未,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-japyeongjinjeon|case-03,classic-japyeongjinjeon,627,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon|case-04,classic-japyeongjinjeon,12742,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon|case-05,classic-japyeongjinjeon,4499,2,丁卯;甲辰,2,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-japyeongjeongsu|case-01,classic-japyeongjeongsu,861,7,癸未;乙卯;丙子;癸巳;甲午;丁丑;壬辰,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-japyeongjeongsu|case-02,classic-japyeongjeongsu,3650,7,辛亥;戊申;丙辰;乙巳;戊午;庚申;戊寅,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-japyeongjeongsu|case-03,classic-japyeongjeongsu,969,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjeongsu|case-04,classic-japyeongjeongsu,864,3,甲午;丁丑;壬辰,3,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-japyeongjeongsu|case-05,classic-japyeongjeongsu,521,5,丙午;丁未;庚辰;甲申;癸亥,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-japyeong-ohhaeng-yeonhae|case-01,classic-japyeong-ohhaeng-yeonhae,4703,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeong-ohhaeng-yeonhae|case-02,classic-japyeong-ohhaeng-yeonhae,5961,1,壬辰,1,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-japyeong-ohhaeng-yeonhae|case-03,classic-japyeong-ohhaeng-yeonhae,5469,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeong-ohhaeng-yeonhae|case-04,classic-japyeong-ohhaeng-yeonhae,4729,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeong-ohhaeng-yeonhae|case-05,classic-japyeong-ohhaeng-yeonhae,3561,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-gilhyung|case-01,classic-gilhyung,387,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-gilhyung|case-02,classic-gilhyung,48,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-gilhyung|case-03,classic-gilhyung,890,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-gilhyung|case-04,classic-gilhyung,1207,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-gilhyung|case-05,classic-gilhyung,1271,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-yugi|case-01,classic-jeokcheonsu-yugi,66,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-yugi|case-02,classic-jeokcheonsu-yugi,838,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-yugi|case-03,classic-jeokcheonsu-yugi,1135,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-yugi|case-04,classic-jeokcheonsu-yugi,197,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-yugi|case-05,classic-jeokcheonsu-yugi,525,9,丙寅;戊寅;丁酉;壬申;癸卯;己酉;乙亥;丁卯,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-sammyeongtonghoe|case-01,classic-sammyeongtonghoe,111,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-sammyeongtonghoe|case-02,classic-sammyeongtonghoe,26128,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-sammyeongtonghoe|case-03,classic-sammyeongtonghoe,2812,6,乙丑;庚戌;丙戌;壬戌;戊戌;甲戌,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-sammyeongtonghoe|case-04,classic-sammyeongtonghoe,5683,1,壬辰,1,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-sammyeongtonghoe|case-05,classic-sammyeongtonghoe,3939,2,辛丑;庚寅,2,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-japyeongjinjeon-jeongpan|case-01,classic-japyeongjinjeon-jeongpan,1858,4,庚申;乙酉;丙申;乙丑,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-japyeongjinjeon-jeongpan|case-02,classic-japyeongjinjeon-jeongpan,1201,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon-jeongpan|case-03,classic-japyeongjinjeon-jeongpan,905,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon-jeongpan|case-04,classic-japyeongjinjeon-jeongpan,349,3,庚午;乙酉;甲子,3,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-japyeongjinjeon-jeongpan|case-05,classic-japyeongjinjeon-jeongpan,1333,4,乙丑;丁亥;己亥;乙亥,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-ohhaengdaeui|case-01,classic-ohhaengdaeui,1062,2,甲子;乙丑,2,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-ohhaengdaeui|case-02,classic-ohhaengdaeui,1068,2,丙寅;丁卯,2,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-ohhaengdaeui|case-03,classic-ohhaengdaeui,1650,3,甲子;戊辰;甲寅,3,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-ohhaengdaeui|case-04,classic-ohhaengdaeui,1115,4,壬戌;己巳;甲子;庚子,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-ohhaengdaeui|case-05,classic-ohhaengdaeui,1110,3,己亥;壬申;壬戌,3,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-jeokcheonsu-baekhwa|case-01,classic-jeokcheonsu-baekhwa,2423,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-baekhwa|case-02,classic-jeokcheonsu-baekhwa,140,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-baekhwa|case-03,classic-jeokcheonsu-baekhwa,10333,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-baekhwa|case-04,classic-jeokcheonsu-baekhwa,12577,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-baekhwa|case-05,classic-jeokcheonsu-baekhwa,2788,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon-pyeongju|case-01,classic-japyeongjinjeon-pyeongju,3782,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon-pyeongju|case-02,classic-japyeongjinjeon-pyeongju,4905,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon-pyeongju|case-03,classic-japyeongjinjeon-pyeongju,675,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon-pyeongju|case-04,classic-japyeongjinjeon-pyeongju,3168,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-japyeongjinjeon-pyeongju|case-05,classic-japyeongjinjeon-pyeongju,592,1,甲子,1,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-jeokcheonsu-cheonmi|case-01,classic-jeokcheonsu-cheonmi,203,4,戊午;丁未;癸亥;乙酉,4,four_pillar_candidate,네 개 이상의 간지가 주변 문맥에서 감지됨
+classic-jeokcheonsu-cheonmi|case-02,classic-jeokcheonsu-cheonmi,74,1,壬申,1,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-jeokcheonsu-cheonmi|case-03,classic-jeokcheonsu-cheonmi,3653,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-cheonmi|case-04,classic-jeokcheonsu-cheonmi,5313,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-jeokcheonsu-cheonmi|case-05,classic-jeokcheonsu-cheonmi,156,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-yeonhaejapyeong|case-01,classic-yeonhaejapyeong,590,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-yeonhaejapyeong|case-02,classic-yeonhaejapyeong,2196,1,庚午,1,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-yeonhaejapyeong|case-03,classic-yeonhaejapyeong,1403,1,丙申,1,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요
+classic-yeonhaejapyeong|case-04,classic-yeonhaejapyeong,2536,0,,0,context_only,명조 문맥 후보이나 주변 라인에서 60갑자 문자열은 미감지
+classic-yeonhaejapyeong|case-05,classic-yeonhaejapyeong,140,1,甲子,1,partial_ganji_candidate,일부 간지만 감지되어 수동 보강 필요

@@ -1,0 +1,13 @@
+stage_code,order_no,ko_name,hanja_name,life_metaphor,energy_state,positive_keywords,caution_keywords,visual_seed,source_ref
+jangsaeng,1,장생,長生,갓 태어난 아기,새로운 탄생과 가능성,시작;희망;회복력,미숙함;의존,small_sprout;new_light,/명리학/05_12운성/장생.md
+mogyok,2,목욕,沐浴,목욕하는 아이;사춘기,노출과 매력의 변화,매력;감성;도화,변덕;관계기복,water_splash;flower_charm,/명리학/05_12운성/목욕.md
+gwandae,3,관대,冠帶,성인식,사회 진입과 성장 준비,패기;성장;자기표현,허세;무리,ceremonial_hat;belt,/명리학/05_12운성/관대.md
+geonrok,4,건록,建祿,직장인,자립과 안정 활동,성실;실속;자수성가,융통성부족,stable_badge;work_tool,/명리학/05_12운성/건록.md
+jewang,5,제왕,帝旺,황제;CEO,최고 전성기와 압도성,리더십;추진;왕성,독선;과잉,crown;peak_aura,/명리학/05_12운성/제왕.md
+soe,6,쇠,衰,원로,경험 축적 후 수렴,원숙;지혜;효율,체력저하;소극성,autumn_leaf;elder_sage,/명리학/05_12운성/쇠.md
+byeong,7,병,病,내면 작업자,감수성과 내면 전환,섬세함;예술;공감,예민;소모,studio_lamp;soft_shadow,/명리학/05_12운성/병.md
+sa,8,사,死,수행자,외적 정지와 내적 집중,몰입;전문성;깊이,고립;정체,meditation;deep_lake,/명리학/05_12운성/사.md
+myo,9,묘,墓,창고,저장과 축적,축적;관리;숨은재능,폐쇄;집착,treasure_chest;tomb_store,/명리학/05_12운성/묘.md
+jeol,10,절,絕,혁명가,단절과 전환,변혁;새출발;독립,불안정;단절,broken_chain;new_gate,/명리학/05_12운성/절.md
+tae,11,태,胎,구상된 생명,아이디어와 잉태,기획;상상;가능성,실행부족,blueprint;embryo_light,/명리학/05_12운성/태.md
+yang,12,양,養,태아,보호받는 성장,잠재력;보호;준비,약한체력;의존,warm_womb;protected_seed,/명리학/05_12운성/양.md

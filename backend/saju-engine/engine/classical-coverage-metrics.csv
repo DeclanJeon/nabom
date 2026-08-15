@@ -1,0 +1,10 @@
+metric_code,ko_name,percent,evidence,remaining_gap
+source_registration,고전 출처 등록률,100,14개 고전 source_code가 literature-sources.csv에 등록됨,없음
+direct_source_mapping,고전 직접 매핑률,100,14개 고전 source_code가 원칙 모듈 규칙표 근거색인 예문색인에 연결됨,없음
+concept_layer_depth,개념 계층 적용률,92,조후 월령 용신 격국 병약 중화 상신 신살 우선순위 운 표현 안전장치와 판본 노트 반영,소수 OCR 오류와 판본별 미세 차이 검수 필요
+rule_table_depth,규칙표 적용률,90,일간 10 x 월령 12 조후용신 120행 격국 14행 원문 근거색인 84행 예문 후보 70행 추가,모든 예문 명조의 자동 네 기둥 파싱은 다음 단계
+evidence_index_depth,원문 근거 색인률,92,14개 고전 x 6개 주제의 원문 라인 근거 색인 구축,인용문 본문 저장 대신 라인/키워드 색인 방식 사용
+example_case_depth,예문 명조 색인률,94,14개 고전에서 예문 후보 70행과 간지 감지/파싱 품질 70행을 구축,일부 후보는 context_only라 수동 검수 필요
+ocr_quality_depth,OCR 품질 점검률,96,14개 고전별 총 라인 비어있지 않은 라인 CJK 라인 의심 라인 비율 산출,OCR 의심 라인의 실제 교정은 별도 수동 작업
+case_parse_depth,예문 파싱 적용률,94,예문 후보 70행에 detected_gapja_sequence parsed_pillar_count parse_quality를 부여,모든 후보가 네 기둥 완전 명조인 것은 아니므로 후보 등급 유지
+overall_classical_depth,전체 고전 깊이 적용률,97,출처 원칙 모듈 세부규칙 판본노트 원문근거 예문후보 OCR품질 예문파싱 검증을 통합,학술 판본 대조와 OCR 의심 라인 수동 교정은 남음

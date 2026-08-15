@@ -1,0 +1,9 @@
+rule_code,ko_name,input_data,calculation_rule,output_data,quality_flag,source_tables
+luck_direction_male_yang_female_yin,순행 대운,gender;year_stem_yinyang,남성 양년 또는 여성 음년은 월주 다음 방향으로 대운을 순행한다,luck_direction=forward,requires_verified_year_stem,heavenly-stems.csv;gapja-combinations.csv
+luck_direction_male_yin_female_yang,역행 대운,gender;year_stem_yinyang,남성 음년 또는 여성 양년은 월주 이전 방향으로 대운을 역행한다,luck_direction=backward,requires_verified_year_stem,heavenly-stems.csv;gapja-combinations.csv
+luck_start_age_next_term,순행 시작 나이,birth_datetime;next_solar_term,순행은 다음 절기까지의 시간 차이를 기준으로 대운 시작 시기를 산출한다,start_age_months,requires_exact_solar_term_time,solar-term-month-boundaries.csv
+luck_start_age_previous_term,역행 시작 나이,birth_datetime;previous_solar_term,역행은 이전 절기까지의 시간 차이를 기준으로 대운 시작 시기를 산출한다,start_age_months,requires_exact_solar_term_time,solar-term-month-boundaries.csv
+ten_year_cycle_step,10년 대운 간격,month_pillar;luck_direction,대운 기둥은 월주를 기준으로 60갑자 순환을 10년 단위로 진행한다,decade_luck_pillars,requires_verified_month_pillar,gapja-combinations.csv
+annual_luck_pillar,세운,target_year,세운은 대상 연도의 연주를 입춘 기준으로 산출해 원국과 상호작용을 본다,annual_luck_pillar,boundary_risk_near_ipchun,gapja-combinations.csv;heavenly-stem-relationships.csv;earthly-branch-relationships.csv
+monthly_luck_pillar,월운,target_month;solar_terms,월운은 절기 기준 월주를 산출해 세운 안의 짧은 흐름으로 본다,monthly_luck_pillar,boundary_risk_near_solar_term,solar-term-month-boundaries.csv;gapja-combinations.csv
+luck_interpretation_guardrail,운 해석 가드레일,luck_pillars;user_context,대운 세운은 확정 예언이 아니라 준비할 날씨와 선택지를 설명하는 UX 문구로 변환한다,plain_language_guardrail,always_include_non_deterministic_copy,modern-principles.csv;modern-analysis-modules.csv

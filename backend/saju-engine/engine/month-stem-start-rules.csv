@@ -1,0 +1,6 @@
+year_stem_codes,year_stem_hanja,start_month_stem_code,start_month_stem_hanja,first_month_pillar,rule_summary,source_tables
+gap;gi,甲己,byeong,丙,丙寅,갑년과 기년은 병인월부터 시작한다,heavenly-stems.csv;solar-term-month-boundaries.csv;gapja-combinations.csv
+eul;gyeong,乙庚,mu,戊,戊寅,을년과 경년은 무인월부터 시작한다,heavenly-stems.csv;solar-term-month-boundaries.csv;gapja-combinations.csv
+byeong;sin,丙辛,gyeong,庚,庚寅,병년과 신년은 경인월부터 시작한다,heavenly-stems.csv;solar-term-month-boundaries.csv;gapja-combinations.csv
+jeong;im,丁壬,im,壬,壬寅,정년과 임년은 임인월부터 시작한다,heavenly-stems.csv;solar-term-month-boundaries.csv;gapja-combinations.csv
+mu;gye,戊癸,gap,甲,甲寅,무년과 계년은 갑인월부터 시작한다,heavenly-stems.csv;solar-term-month-boundaries.csv;gapja-combinations.csv

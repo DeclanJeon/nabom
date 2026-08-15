@@ -1,0 +1,15 @@
+source_code,version_role,modernized_application,conflict_policy
+classic-japyeongjinjeon,자평진전 기본본,월령용신과 격국 성패의 기준 축,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-japyeongjinjeon-jeongpan,정판 대조본,월령 우선과 외격 남용 방지 규칙의 대조 축,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-japyeongjinjeon-pyeongju,평주 해설본,상신 손상과 성패구응의 현대어 보강 축,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-japyeongjeongsu,자평 계열 보조본,병약 중화와 격국 실전 조건 보강,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-yeonhaejapyeong,연해자평 계열,정격 후보와 월령 투출 조건 보강,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-sammyeongtonghoe,종합 전거,신살과 격국 보조 근거의 넓은 참조,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-gungtongbogam,조후 전거,일간 월령별 한난조습 보정,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-ohhaengdaeui,오행 상징 전거,오행 상징과 계절 방향 색성 보강,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-jeokcheonsu-yugi,적천수 원문 주석,오행 기세와 생극 흐름 보강,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-jeokcheonsu-baekhwa,적천수 현대어본,사용자 출력의 현대어 조건문 변환,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-jeokcheonsu-cheonmi,적천수 심층 주석,극왕 극약 예외 태그 보강,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-gilhyung,길흉 표현 참고,공포형 단정을 주의와 보완 행동으로 변환,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-pungsu-yeokgyeong,역경 순환 참고,계절 방향 시간대의 상징 맥락 연결,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존
+classic-japyeong-ohhaeng-yeonhae,합본 교차 참고,자평식 격국과 오행 원리 교차 검증,판본 간 차이는 단정하지 않고 source_weight와 confidence로 보존

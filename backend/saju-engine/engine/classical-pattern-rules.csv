@@ -1,0 +1,15 @@
+pattern_code,ko_name,base_ten_god_code,month_command_condition,success_conditions,failure_conditions,rescue_conditions,modern_rule,source_codes,priority
+jeonggwan_pattern,정관격,jeonggwan,월령 정관 또는 월령 지장간 정관이 투출,재성이 관을 돕거나 인성이 관의 질서를 보존하고 충형파해가 적음,상관이 강하게 관을 치거나 관살이 혼잡함,인성으로 상관을 제어하거나 재관인이 순환하면 회복,질서 책임 명예의 구조로 보되 손상과 구제 요소를 함께 판단,classic-japyeongjinjeon;classic-japyeongjinjeon-jeongpan,1
+pyeongwan_pattern,칠살격,pyeongwan,월령 편관 또는 칠살이 강하게 작동,식신 제살 살인상생 신왕살왕의 제화가 있음,칠살이 무제하거나 관살혼잡이 심함,식상 제살 또는 인성 화살로 권위와 추진력으로 전환,강한 압박 에너지를 제어 장치가 있는지 먼저 본다,classic-japyeongjeongsu;classic-japyeongjinjeon,2
+jeongjae_pattern,정재격,jeongjae,월령 재성 또는 재성이 맑게 투출,일간이 재를 감당하고 식상이 재를 생하며 비겁 분탈이 약함,신약한데 재가 과다하거나 비겁이 재를 나눔,비겁 과다에는 관살로 제어하고 신약에는 인비로 버팀,현실 자원 관리 구조로 보되 일간의 감당력을 같이 본다,classic-yeonhaejapyeong;classic-japyeongjeongsu,3
+pyeonjae_pattern,편재격,pyeonjae,월령 편재 또는 넓은 재성 흐름,식상 생재와 활동성이 있고 일간이 감당 가능,재다신약 또는 비겁 분재가 심함,인비로 몸을 세우거나 관성으로 비겁을 누르면 안정,확장 자원과 기회성을 보되 과확장 위험을 함께 둔다,classic-yeonhaejapyeong;classic-sammyeongtonghoe,4
+jeongin_pattern,인수격,jeongin,월령 인성 또는 인성이 맑게 투출,관성이 인성을 생하고 일간을 안정적으로 도움,재성이 인성을 파하거나 인성이 과다해 흐름이 막힘,비겁 식상 재성의 균형으로 과다 인성을 소통,학습 보호 자격의 구조로 보되 재인 충돌을 검사,classic-japyeongjinjeon;classic-yeonhaejapyeong,5
+pyeonin_pattern,편인격,pyeonin,월령 편인 또는 편인이 핵심으로 작동,특수 학습과 통찰로 쓰이고 식신을 심하게 해치지 않음,편인이 식신을 빼앗거나 고립성이 심해짐,재성으로 편인을 제어하거나 식상 흐름을 보호,특수성은 장점이지만 고립과 편중을 함께 경계,classic-japyeongjeongsu;classic-jeokcheonsu-cheonmi,6
+siksin_pattern,식신격,siksin,월령 식신 또는 식신이 맑고 유력,식신 생재 또는 식신 제살이 순조로움,편인이 식신을 치거나 식상이 과다해 일간을 누설,재성으로 식신을 유통하거나 인성 과다를 조절,표현 생산 돌봄의 흐름으로 보되 편인 손상을 검사,classic-japyeongjeongsu;classic-yeonhaejapyeong,7
+sanggwan_pattern,상관격,sanggwan,월령 상관 또는 상관이 강하게 작동,상관생재 또는 상관패인처럼 제어 장치가 있음,상관견관으로 정관을 직접 손상,인성으로 상관을 조절하거나 재성으로 흐름을 돌림,강한 표현과 규칙 충돌을 조건부로 해석,classic-japyeongjinjeon;classic-japyeongjeongsu,8
+yangin_pattern,양인격,,일간이 양인 위치를 얻고 기세가 날카로움,관살이 양인을 제어하거나 식상으로 힘을 유통,무제한 양인이 충동과 경쟁으로 치우침,관살 제어 또는 식상 유통으로 힘을 쓰게 함,강한 자기 추진력을 제어 구조와 함께 본다,classic-japyeongjeongsu;classic-sammyeongtonghoe,9
+geonrok_monthrob_pattern,건록월겁격,bijeon,월령이 건록 또는 월겁으로 일간과 같은 편,재관식상이 있어 강한 자기 기운을 사회적 결과로 전환,비겁만 강하고 재관식상이 약함,재성 관성 식상 중 하나로 출구를 만들면 회복,자기 기운의 강함보다 출구가 있는지를 본다,classic-japyeongjinjeon;classic-japyeongjinjeon-pyeongju,10
+japgi_pattern,잡기격,,진술축미 등 묘고지의 여러 지장간이 격 후보가 됨,필요한 지장간이 투출하거나 충으로 열려 쓰임이 분명함,여러 기운이 섞여 용신이 불분명함,투출된 기운과 월령의 실제 세력을 기준으로 정리,묘고지는 숨은 기운의 투출과 개폐를 함께 본다,classic-japyeongjinjeon;classic-yeonhaejapyeong,11
+cong_hwa_pattern,종화격,,일간이 일반 균형을 포기할 정도로 한쪽 기세가 압도,따르는 기세가 맑고 방해하는 뿌리가 약함,일간 뿌리나 반대 기운이 살아 있어 종화가 깨짐,정격으로 되돌려 강약과 병약을 재평가,극단 구조는 예외 규칙으로만 제한 적용,classic-japyeongjeongsu;classic-jeokcheonsu-cheonmi,12
+external_pattern,외격,,월령에 쓸 만한 정격 구조가 약할 때 외부 특수 구조를 검토,월령 정격이 없고 외격 조건이 선명함,월령 정격이 있는데 특수격을 억지 적용,월령 정격 우선 원칙으로 되돌림,특수격은 마지막 후보이며 월령 정격보다 앞서지 않는다,classic-japyeongjinjeon;classic-japyeongjinjeon-jeongpan,13
+stars_auxiliary_pattern,신살보조,,신살 또는 길성이 구조 판단 뒤에 부가로 작동,격국과 오행 흐름을 보완하는 설명으로만 사용,신살만으로 귀천 길흉을 단정,격국 오행 십성 근거를 먼저 요구,신살은 결과의 장식과 주의점이지 핵심 판정자가 아니다,classic-japyeongjinjeon;classic-sammyeongtonghoe,14

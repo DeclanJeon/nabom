@@ -1,0 +1,9 @@
+position_key,pillar_code,pillar_ko,slot_code,slot_ko,analysis_role,life_period,program_use,source_ref
+year_stem,year,연주,stem,천간,외부로 드러나는 가문 사회 배경의 천간 기운,초년과 사회적 배경,연간 십성과 오행 노출값 산출,/명리학/00_사주팔자란/intro.md
+year_branch,year,연주,branch,지지,출신 환경과 조상 인연의 지지 기운,초년과 사회적 배경,연지 동물 지장간 12운성 신살 산출,/명리학/03_지지/00_소개.md
+month_stem,month,월주,stem,천간,사회활동 부모 직업 축의 천간 기운,청년기와 사회 진입,월간 십성과 계절 조후 보정 산출,/명리학/04_십성/00_소개.md
+month_branch,month,월주,branch,지지,계절 월령 직업 환경의 중심 지지,청년기와 직업 기반,월령 오행 강약 지장간 신살 산출,/명리학/03_지지/00_소개.md
+day_stem,day,일주,stem,천간,명식의 기준이 되는 자기 자신 일간,현재 자아와 판단 기준,십성 12운성 전체 계산 기준값,/명리학/02_천간/00_소개.md
+day_branch,day,일주,branch,지지,배우자궁 생활 기반의 일지 기운,현재 생활과 관계,일지 지장간 관계궁 12운성 산출,/명리학/03_지지/00_소개.md
+hour_stem,hour,시주,stem,천간,자녀 후반부 미래 지향의 천간 기운,말년과 미래 지향,시간 십성과 후기 성향 산출,/명리학/02_천간/00_소개.md
+hour_branch,hour,시주,branch,지지,자녀 말년 결과물의 지지 기운,말년과 결과물,시지 지장간 신살 12운성 산출,/명리학/03_지지/00_소개.md

@@ -1,0 +1,13 @@
+shinsal_code,order_no,ko_name,hanja_name,energy_domain,modern_read,positive_keywords,caution_keywords,visual_seed,source_ref
+geopsal,1,겁살,劫殺,경쟁과 위협,위기 속 승부 에너지,판단;경쟁력;대응,빼앗김;무리,sharp_shadow;contest_badge,/명리학/06_12신살/겁살.md
+jaesal,2,재살,災殺,돌발 변화,위기관리와 예방 에너지,대처;예방;전환,사고;불안,warning_mark;rescue_tool,/명리학/06_12신살/재살.md
+cheonsal,3,천살,天殺,하늘과 통제밖 사건,직감과 영감 에너지,영감;깨달음;직관,예측불가,sky_mark;lightning,/명리학/06_12신살/천살.md
+jisal,4,지살,地殺,터전 변화,환경 적응과 이동 기반,적응;이주;개척,정착불안,terrain_map;new_home,/명리학/06_12신살/지살.md
+nyeonsal,5,년살,年殺,매력과 도화,사람을 끌어당기는 에너지,사교;매력;인기,관계문제,flower_charm;pink_aura,/명리학/06_12신살/년살.md
+wolsal,6,월살,月殺,시련과 성장,좌절 후 단련되는 에너지,인내;대기만성;성장,초반난관,moon_shadow;training_mark,/명리학/06_12신살/월살.md
+mangsin,7,망신살,亡身殺,노출과 주목,무대성과 공개성 에너지,표현;스타성;인지도,구설;사생활노출,stage_light;spotlight,/명리학/06_12신살/망신살.md
+jangseong,8,장성살,將星殺,리더십과 장수,한 분야를 지휘하는 에너지,리더십;권위;성과,독단;압박,general_flag;command_badge,/명리학/06_12신살/장성살.md
+banan,9,반안살,攀鞍殺,자리와 안정,좋은 자리와 승진의 에너지,안정;승진;주거복,안주,horse_saddle;seat_mark,/명리학/06_12신살/반안살.md
+yeokma,10,역마살,驛馬殺,이동과 활동,글로벌 이동성과 실행 에너지,여행;출장;활동,불안정,wheel;travel_bag,/명리학/06_12신살/역마살.md
+yukhae,11,육해살,六害殺,관계의 해와 분별,인간관계 지혜 에너지,분별;깊은관계;중재,배신;고립,broken_link;wise_eye,/명리학/06_12신살/육해살.md
+hwagae,12,화개살,華蓋殺,예술과 고독,신성한 보호와 예술성,예술;수행;품격,고독;폐쇄,lotus_canopy;monk_cloak,/명리학/06_12신살/화개살.md

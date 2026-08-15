@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+  <!-- background -->
+  <rect width="1600" height="1000" fill="#faf7f2"/>
+  <rect x="0" y="0" width="1600" height="8" fill="#ee5525"/>
+
+  <!-- title -->
+  <text x="80" y="70" font-size="34" font-weight="800" fill="#3d2e1e">NABOM 캐릭터 성장 설계도</text>
+  <text x="80" y="104" font-size="18" fill="#8c7a68">10천간 아키타입 × 2 성별 × 10 성장 단계 = 프리렌더 카탈로그 400개 (PNG + GIF)</text>
+
+  <!-- axis labels -->
+  <text x="80" y="160" font-size="16" font-weight="700" fill="#59795e">아키타입 (천간 10)</text>
+  <text x="560" y="160" font-size="16" font-weight="700" fill="#59795e">성별</text>
+  <text x="840" y="160" font-size="16" font-weight="700" fill="#59795e">성장 단계 (기록일수)</text>
+  <text x="1320" y="160" font-size="16" font-weight="700" fill="#ee5525">출력</text>
+
+  <!-- archetype column -->
+  <g font-size="15" fill="#3d2e1e">
+    <rect x="80" y="180" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="209">갑목 · 길을 여는 사람</text>
+    <rect x="80" y="232" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="261">을목 · 이어주는 사람</text>
+    <rect x="80" y="284" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="313">병화 · 밝히는 사람</text>
+    <rect x="80" y="336" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="365">정화 · 온기를 나누는</text>
+    <rect x="80" y="388" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="417">무토 · 자리를 지키는</text>
+    <rect x="80" y="440" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="469">기토 · 가꾸는 사람</text>
+    <rect x="80" y="492" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="521">경금 · 기준을 세우는</text>
+    <rect x="80" y="544" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="573">신금 · 다듬는 사람</text>
+    <rect x="80" y="596" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="625">임수 · 흐름을 읽는</text>
+    <rect x="80" y="648" width="400" height="44" rx="10" fill="#fff" stroke="#e5ddd2"/><text x="100" y="677">계수 · 깊이 비추는</text>
+  </g>
+
+  <!-- gender -->
+  <rect x="560" y="180" width="220" height="90" rx="12" fill="#fff" stroke="#e5ddd2"/>
+  <text x="580" y="215" font-size="16" font-weight="700" fill="#3d2e1e">남성 (male)</text>
+  <text x="580" y="245" font-size="13" fill="#8c7a68">m 10개</text>
+  <rect x="560" y="282" width="220" height="90" rx="12" fill="#fff" stroke="#e5ddd2"/>
+  <text x="580" y="317" font-size="16" font-weight="700" fill="#3d2e1e">여성 (female)</text>
+  <text x="580" y="347" font-size="13" fill="#8c7a68">f 10개</text>
+
+  <!-- stages -->
+  <rect x="840" y="180" width="400" height="520" rx="12" fill="#fff" stroke="#e5ddd2"/>
+  <g font-size="13">
+    <text x="860" y="210" font-weight="700" fill="#3d2e1e">1 · 프로필 생성</text><text x="1120" y="210" fill="#8c7a68">새싹/불씨/씨앗</text>
+    <line x1="860" y1="222" x2="1220" y2="222" stroke="#e5ddd2"/>
+    <text x="860" y="248" font-weight="700" fill="#3d2e1e">2 · 7일</text><text x="1120" y="248" fill="#8c7a68">오솔길/모닥불</text>
+    <line x1="860" y1="260" x2="1220" y2="260" stroke="#e5ddd2"/>
+    <text x="860" y="286" font-weight="700" fill="#3d2e1e">3 · 14일</text><text x="1120" y="286" fill="#8c7a68">갈림길/등불</text>
+    <line x1="860" y1="298" x2="1220" y2="298" stroke="#e5ddd2"/>
+    <text x="860" y="324" font-weight="700" fill="#3d2e1e">4 · 21일</text><text x="1120" y="324" fill="#8c7a68">숲길/횃불</text>
+    <line x1="860" y1="336" x2="1220" y2="336" stroke="#e5ddd2"/>
+    <text x="860" y="362" font-weight="700" fill="#3d2e1e">5 · 28일 (프로필 002)</text><text x="1120" y="362" fill="#8c7a68">첫 정상/벽난로</text>
+    <line x1="860" y1="374" x2="1220" y2="374" stroke="#e5ddd2"/>
+    <text x="860" y="400" font-weight="700" fill="#3d2e1e">6 · 35일</text><text x="1120" y="400" fill="#8c7a68">새 지도/아궁이</text>
+    <line x1="860" y1="412" x2="1220" y2="412" stroke="#e5ddd2"/>
+    <text x="860" y="438" font-weight="700" fill="#3d2e1e">7 · 42일</text><text x="1120" y="438" fill="#8c7a68">개척자/화로</text>
+    <line x1="860" y1="450" x2="1220" y2="450" stroke="#e5ddd2"/>
+    <text x="860" y="476" font-weight="700" fill="#3d2e1e">8 · 49일</text><text x="1120" y="476" fill="#8c7a68">등산로/등대</text>
+    <line x1="860" y1="488" x2="1220" y2="488" stroke="#e5ddd2"/>
+    <text x="860" y="514" font-weight="700" fill="#3d2e1e">9 · 56일</text><text x="1120" y="514" fill="#8c7a68">대륙의 길/태양 정원</text>
+    <line x1="860" y1="526" x2="1220" y2="526" stroke="#e5ddd2"/>
+    <text x="860" y="552" font-weight="700" fill="#3d2e1e">10 · 63일+</text><text x="1120" y="552" fill="#8c7a68">지평선 너머/무대 위 빛</text>
+  </g>
+  <text x="860" y="660" font-size="13" fill="#59795e">단계는 기록일수로 결정적 계산 →</text>
+  <text x="860" y="680" font-size="13" fill="#59795e">생성 호출 없이 캐릭터가 자란다</text>
+
+  <!-- output arrow -->
+  <path d="M 840 470 H 1300" stroke="#ee5525" stroke-width="3" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#ee5525"/></marker></defs>
+
+  <!-- output catalog -->
+  <rect x="1300" y="200" width="240" height="180" rx="14" fill="#fde2d4" stroke="#ee5525" stroke-width="2"/>
+  <text x="1320" y="235" font-size="18" font-weight="800" fill="#932816">프리렌더 카탈로그</text>
+  <text x="1320" y="265" font-size="14" fill="#b72e10">10 × 2 × 10 = 200 PNG</text>
+  <text x="1320" y="290" font-size="14" fill="#b72e10">+ GIF 200 = 400개</text>
+  <text x="1320" y="330" font-size="13" font-weight="700" fill="#932816">⚡ 정적 서빙 · 부하 0</text>
+  <text x="1320" y="355" font-size="12" fill="#b72e10">같은 키 = 재사용</text>
+
+  <!-- fallback -->
+  <rect x="1300" y="420" width="240" height="130" rx="14" fill="#e3eae3" stroke="#59795e" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="1320" y="452" font-size="15" font-weight="700" fill="#2e3f31">폴백: 개별 생성</text>
+  <text x="1320" y="478" font-size="13" fill="#374d3b">카탈로그 미완성 시</text>
+  <text x="1320" y="500" font-size="13" fill="#374d3b">Codex 이미지 1회 생성</text>
+  <text x="1320" y="530" font-size="12" fill="#446049">→ 완성되면 카탈로그로 전환</text>
+  <path d="M 1420 420 V 390" stroke="#59795e" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrowg)"/>
+  <defs><marker id="arrowg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#59795e"/></marker></defs>
+
+  <!-- GIF note -->
+  <rect x="1300" y="590" width="240" height="110" rx="14" fill="#fff" stroke="#e5ddd2"/>
+  <text x="1320" y="622" font-size="15" font-weight="700" fill="#3d2e1e">GIF 스프라이트</text>
+  <text x="1320" y="650" font-size="13" fill="#8c7a68">PNG에서 8프레임 파생</text>
+  <text x="1320" y="672" font-size="13" fill="#8c7a68">bob·호흡·기울임</text>
+  <text x="1320" y="694" font-size="13" fill="#8c7a68">무한 루프 · 투명 유지</text>
+
+  <!-- footer -->
+  <text x="80" y="920" font-size="14" fill="#8c7a68">단계별 심볼 예시: pathfinder 새싹(1) → 깃발+나침반(10) · brightener 불씨(1) → 무대 위 빛(10) · seer 연못(1) → 눈빛 등(10)</text>
+  <rect x="80" y="940" width="1440" height="4" rx="2" fill="#e5ddd2"/>
+  <text x="80" y="970" font-size="13" fill="#a07856">진행: 프리렌더 5/200 PNG · 백그라운드 자동 생성 · 중단/재개 안전</text>
+</svg>

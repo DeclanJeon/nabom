@@ -1,0 +1,11 @@
+ten_god_code,ko_name,category,element_relation,yinyang_relation,rule_summary,source_ref
+bijeon,비견,peer,same_as_day_stem,same,일간과 같은 오행이며 같은 음양,/명리학/04_십성/00_소개.md
+geopjae,겁재,peer,same_as_day_stem,different,일간과 같은 오행이며 다른 음양,/명리학/04_십성/00_소개.md
+siksin,식신,output,day_stem_generates,target_same,내가 생하는 오행이며 같은 음양,/명리학/04_십성/00_소개.md
+sanggwan,상관,output,day_stem_generates,target_different,내가 생하는 오행이며 다른 음양,/명리학/04_십성/00_소개.md
+jeongjae,정재,wealth,day_stem_controls,target_same,내가 극하는 오행이며 같은 음양,/명리학/04_십성/00_소개.md
+pyeonjae,편재,wealth,day_stem_controls,target_different,내가 극하는 오행이며 다른 음양,/명리학/04_십성/00_소개.md
+jeonggwan,정관,authority,target_controls_day_stem,target_same,나를 극하는 오행이며 같은 음양,/명리학/04_십성/00_소개.md
+pyeongwan,편관,authority,target_controls_day_stem,target_different,나를 극하는 오행이며 다른 음양,/명리학/04_십성/00_소개.md
+jeongin,정인,resource,target_generates_day_stem,target_same,나를 생하는 오행이며 같은 음양,/명리학/04_십성/00_소개.md
+pyeonin,편인,resource,target_generates_day_stem,target_different,나를 생하는 오행이며 다른 음양,/명리학/04_십성/00_소개.md

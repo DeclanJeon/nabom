@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NABOM Internal Engine Error",
+  "type": "object",
+  "required": ["error"],
+  "properties": {
+    "error": {
+      "type": "object",
+      "required": ["code", "message", "retryable"],
+      "properties": {
+        "code": {
+          "type": "string",
+          "enum": [
+            "INVALID_INPUT",
+            "SERVICE_UNAUTHORIZED",
+            "CONSENT_REQUIRED",
+            "RESOURCE_NOT_FOUND",
+            "IDEMPOTENCY_CONFLICT",
+            "LUNAR_CONVERSION_UNAVAILABLE",
+            "QUALITY_POLICY_BLOCKED",
+            "APPROXIMATE_SOLAR_TERMS_BLOCKED",
+            "RATE_LIMITED",
+            "ENGINE_UNAVAILABLE",
+            "ENGINE_TIMEOUT"
+          ]
+        },
+        "message": { "type": "string" },
+        "retryable": { "type": "boolean" },
+        "request_id": { "type": "string" },
+        "details": { "type": "object" }
+      }
+    }
+  }
+}

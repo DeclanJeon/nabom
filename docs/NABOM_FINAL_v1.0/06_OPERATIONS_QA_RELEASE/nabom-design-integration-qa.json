@@ -1,0 +1,33 @@
+{
+  "kind": "api-package-test-report",
+  "scope": "NABOM design SSOT integration",
+  "status": "passed_with_known_dependency_blocker",
+  "checks": [
+    {
+      "name": "compatibility_engine",
+      "command": "python test_compatibility_engine.py",
+      "status": "passed",
+      "evidence": "compatibility engine tests passed"
+    },
+    {
+      "name": "iching_engine",
+      "command": "PYTHONPATH=engine python -m unittest engine/test_iching.py",
+      "status": "passed",
+      "evidence": "Ran 17 tests; OK"
+    },
+    {
+      "name": "semantic_contracts",
+      "command": "python verify_design_contracts.py",
+      "status": "passed",
+      "evidence": "Consent-aware page authorization, canonical visibility/authorization separation, revocation suspension, deterministic reflection replay, complete group schema/minimum gate, GroupBuy separation, and reflection audit fields passed."
+    }
+  ],
+  "adversarial_cases": [
+    "reordered evidence IDs produce identical casts",
+    "changed evidence snapshot produces a different deterministic cast sequence",
+    "revoked or paused authorization is suspended",
+    "fewer than five active-consented members cannot publish individual inference"
+  ],
+  "known_blocker": "manse_engine full suite requires lunar-python==1.4.8, which is not installed in the current environment.",
+  "artifact_provenance": "Generated from commands executed in the NABOM project workspace."
+}

@@ -1,0 +1,24 @@
+relationship_type,group_key,branches,result_element,ko_name,interpretation,source_ref
+six_harmony,ja-chuk,ja;chuk,earth,자축합,자와 축의 육합으로 안정과 저장,/명리학/03_지지
+six_harmony,in-hae,in;hae,wood,인해합,인과 해의 육합으로 성장과 시작,/명리학/03_지지
+six_harmony,myo-sul,myo;sul,fire,묘술합,묘와 술의 육합으로 감성과 내면불꽃,/명리학/03_지지
+six_harmony,jin-yu,jin;yu,metal,진유합,진과 유의 육합으로 정밀한 결실,/명리학/03_지지
+six_harmony,sa-sin,sa;sin,water,사신합,사와 신의 육합으로 지혜와 변동,/명리학/03_지지
+six_harmony,o-mi,o;mi,earth,오미합,오와 미의 육합으로 온기와 포용,/명리학/03_지지
+triad,in-o-sul,in;o;sul,fire,인오술 삼합,화국을 이루는 열정과 확산,/명리학/03_지지
+triad,hae-myo-mi,hae;myo;mi,wood,해묘미 삼합,목국을 이루는 성장과 생명력,/명리학/03_지지
+triad,sa-yu-chuk,sa;yu;chuk,metal,사유축 삼합,금국을 이루는 수렴과 결실,/명리학/03_지지
+triad,sin-ja-jin,sin;ja;jin,water,신자진 삼합,수국을 이루는 지혜와 흐름,/명리학/03_지지
+seasonal,in-myo-jin,in;myo;jin,wood,인묘진 방합,봄의 목 기운,/명리학/03_지지
+seasonal,sa-o-mi,sa;o;mi,fire,사오미 방합,여름의 화 기운,/명리학/03_지지
+seasonal,sin-yu-sul,sin;yu;sul,metal,신유술 방합,가을의 금 기운,/명리학/03_지지
+seasonal,hae-ja-chuk,hae;ja;chuk,water,해자축 방합,겨울의 수 기운,/명리학/03_지지
+clash,ja-o,ja;o,,자오충,정반대 기운의 충돌,/명리학/03_지지/ja.md
+clash,chuk-mi,chuk;mi,,축미충,토 기운 내부의 생활 방식 충돌,/명리학/03_지지/mi.md
+clash,in-sin,in;sin,,인신충,이동과 변화가 큰 충돌,/명리학/03_지지/in.md
+clash,myo-yu,myo;yu,,묘유충,미감과 규칙의 가치관 충돌,/명리학/03_지지/myo.md
+clash,jin-sul,jin;sul,,진술충,저장된 토 기운의 충돌,/명리학/03_지지
+clash,sa-hae,sa;hae,,사해충,화와 수의 방향 전환,/명리학/03_지지
+punishment,in-sa-sin,in;sa;sin,,인사신 삼형,법적 문제와 긴장에 주의,/명리학/03_지지/in.md
+punishment,chuk-sul-mi,chuk;sul;mi,,축술미 삼형,권력과 주도권 문제에 주의,/명리학/03_지지/mi.md
+punishment,ja-myo,ja;myo,,자묘형,무례지형으로 예의와 소통 갈등,/명리학/03_지지/ja.md

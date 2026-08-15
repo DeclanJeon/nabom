@@ -1,0 +1,101 @@
+code	stage	symbol_en
+pathfinder	1	holding a tiny potted sprout
+pathfinder	2	a small stone at the entrance of a path
+pathfinder	3	a small branch chosen at a fork in the road
+pathfinder	4	a small lantern lighting the forest trail
+pathfinder	5	a tiny flag planted at the first summit
+pathfinder	6	a bag with a new map
+pathfinder	7	a compass and a worn backpack
+pathfinder	8	a trail signpost
+pathfinder	9	a large rolled map of the land
+pathfinder	10	a flag pointing to the horizon plus a compass
+weaver	1	holding a single ball of thread
+weaver	2	a knot joining two colors of thread
+weaver	3	a small bridge model
+weaver	4	a knitted handkerchief
+weaver	5	a small net connecting people
+weaver	6	an orchestra baton
+weaver	7	a piece of embroidered cloth
+weaver	8	a painting of a bridge connecting the whole town
+weaver	9	a large woven fabric of many colors
+weaver	10	a finished tapestry joining everyone together
+brightener	1	holding a small lamp with a tiny flame
+brightener	2	warming hands by a campfire
+brightener	3	holding a lantern
+brightener	4	raising a torch high
+brightener	5	smiling in front of a fireplace
+brightener	6	lighting a stove fire
+brightener	7	holding a brazier
+brightener	8	glowing from the top of a lighthouse
+brightener	9	in the middle of a sun garden
+brightener	10	under bright stage lights
+lighter	1	holding a single candle
+lighter	2	by a window lit with starlight
+lighter	3	pouring oil into a lamp
+lighter	4	smiling under a street lamp
+lighter	5	sharing the light from the window with someone
+lighter	6	lending a flashlight
+lighter	7	offering a teacup in moonlight
+lighter	8	turning on a lamp in a room at sunset
+lighter	9	in front of a warm house door
+lighter	10	lighting many lamps like small stars
+steadier	1	holding a single seed
+steadier	2	watering a potted plant
+steadier	3	tending a small garden
+steadier	4	working a vegetable patch
+steadier	5	opening the gate of a farm
+steadier	6	laying solid bricks
+steadier	7	guarding the gate of a fortress
+steadier	8	sitting by a still lake
+steadier	9	resting under an old oak tree
+steadier	10	embracing the center of the earth
+gardener	1	holding a handful of soil
+gardener	2	watering a sprout
+gardener	3	arranging flower beds
+gardener	4	caressing a mossy stone
+gardener	5	pruning a bonsai
+gardener	6	looking into a greenhouse
+gardener	7	harvesting herbs
+gardener	8	as the keeper of a forest
+gardener	9	walking through a centuries-old garden
+gardener	10	tending the earth like a garden
+decider	1	holding a single pencil
+decider	2	drawing a straight line with a ruler
+decider	3	cutting with scissors
+decider	4	drawing a blueprint
+decider	5	unfolding a design plan
+decider	6	setting a baseline
+decider	7	completing a master plan
+decider	8	holding a compass
+decider	9	adjusting a precision clock
+decider	10	gripping a steering helm
+polisher	1	holding a whetstone
+polisher	2	rubbing with sandpaper
+polisher	3	applying polish
+polisher	4	carving with a chisel
+polisher	5	refining a gem
+polisher	6	polishing a glass surface
+polisher	7	cleaning a mirror
+polisher	8	adjusting a precision instrument
+polisher	9	tuning the strings of a finished instrument
+polisher	10	offering a shining gem
+observer	1	holding a single water drop
+observer	2	dipping a hand into a stream
+observer	3	watching the river
+observer	4	skipping a stone on a lake
+observer	5	swimming in the deep sea
+observer	6	gazing below the surface
+observer	7	sitting in moonlight
+observer	8	counting stars
+observer	9	gazing at the milky way
+observer	10	embracing the whole night sky
+seer	1	beside a still pond
+seer	2	in a misty morning
+seer	3	holding a dewdrop
+seer	4	at a riverbank at dawn
+seer	5	looking into a deep spring
+seer	6	by a sleeping lakeshore
+seer	7	drawing the far side of the moon
+seer	8	unfolding a star chart
+seer	9	reading a night without light
+seer	10	holding a lamp lit only by a glance

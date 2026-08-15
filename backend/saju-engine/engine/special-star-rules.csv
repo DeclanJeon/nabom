@@ -1,0 +1,21 @@
+special_star_code,base_key,target_values,rule_summary,source_ref
+cheon-eul-gwiin,gap;mu;gyeong,chuk;mi,갑무경 일간은 축미가 천을귀인,/명리학/07_신살/천을귀인.md
+cheon-eul-gwiin,eul;gi,ja;sin,을기 일간은 자신이 천을귀인,/명리학/07_신살/천을귀인.md
+cheon-eul-gwiin,byeong;jeong,hae;yu,병정 일간은 해유가 천을귀인,/명리학/07_신살/천을귀인.md
+cheon-eul-gwiin,im;gye,sa;myo,임계 일간은 사묘가 천을귀인,/명리학/07_신살/천을귀인.md
+cheon-eul-gwiin,sin,o;in,신 일간은 오인이 천을귀인,/명리학/07_신살/천을귀인.md
+hakdang-gwiin,gap,hae,갑 일간은 해가 학당귀인,/명리학/07_신살/학당귀인.md
+hakdang-gwiin,eul,o,을 일간은 오가 학당귀인,/명리학/07_신살/학당귀인.md
+hakdang-gwiin,byeong;mu,in,병무 일간은 인이 학당귀인,/명리학/07_신살/학당귀인.md
+hakdang-gwiin,jeong;gi,yu,정기 일간은 유가 학당귀인,/명리학/07_신살/학당귀인.md
+hakdang-gwiin,gyeong,sa,경 일간은 사가 학당귀인,/명리학/07_신살/학당귀인.md
+hakdang-gwiin,sin,ja,신 일간은 자가 학당귀인,/명리학/07_신살/학당귀인.md
+hakdang-gwiin,im,sin,임 일간은 신이 학당귀인,/명리학/07_신살/학당귀인.md
+hakdang-gwiin,gye,myo,계 일간은 묘가 학당귀인,/명리학/07_신살/학당귀인.md
+woldok-gwiin,in;o;sul,byeong,인오술 월에는 병이 월덕귀인,/명리학/07_신살/월덕귀인.md
+woldok-gwiin,sin;ja;jin,im,신자진 월에는 임이 월덕귀인,/명리학/07_신살/월덕귀인.md
+woldok-gwiin,sa;yu;chuk,gyeong,사유축 월에는 경이 월덕귀인,/명리학/07_신살/월덕귀인.md
+woldok-gwiin,hae;myo;mi,gap,해묘미 월에는 갑이 월덕귀인,/명리학/07_신살/월덕귀인.md
+baekho-daesal,year_branch_plus_4,day_branch,연지에서 순서대로 네 칸 진행한 지지가 일지에 있으면 백호대살로 보는 견해,/명리학/07_신살/백호대살.md
+gwigang-sal,day_pillar,gyeong-jin;gyeong-sul;im-jin;im-sul,경진 경술 임진 임술 네 일주만 괴강살,/명리학/07_신살/괴강살.md
+hyeonchim-sal,glyph,甲;辛;申,세로 획이 강한 글자가 일주에 있을 때 현침살로 참고,/명리학/07_신살/현침살.md

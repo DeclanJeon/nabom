@@ -1,0 +1,6 @@
+element_code,ko_name,hanja_name,yin_stem,yang_stem,season,direction,color_keywords,shape_keywords,material_keywords,virtue,organ_keywords,taste,number_keywords,generation_palette,source_ref
+wood,목,木,을,갑,봄,동쪽,초록색;청색,상승;기둥;나뭇잎,나무;잎;가지,인,간;담,신맛,"3;8",green;blue-green;leaf,/명리학/01_오행
+fire,화,火,정,병,여름,남쪽,빨간색;주황색;보라색,삼각형;불꽃;광원,불;빛;태양;촛불,예,심장;소장,쓴맛,"2;7",red;orange;gold;flame,/명리학/01_오행
+earth,토,土,기,무,환절기,중앙,노란색;갈색;황토색,사각형;언덕;대지,흙;돌;산;논밭,신,비장;위장,단맛,"5;10",yellow;ochre;brown;stone,/명리학/01_오행
+metal,금,金,신,경,가을,서쪽,흰색;은색;금색,원석;칼날;결정,금속;보석;강철;바늘,의,폐;대장,매운맛,"4;9",white;silver;gray;facet,/명리학/01_오행
+water,수,水,계,임,겨울,북쪽,검은색;남색;짙은파랑,물결;방울;안개,물;강;바다;비;이슬,지,신장;방광,짠맛,"1;6",navy;black;blue;wave,/명리학/01_오행

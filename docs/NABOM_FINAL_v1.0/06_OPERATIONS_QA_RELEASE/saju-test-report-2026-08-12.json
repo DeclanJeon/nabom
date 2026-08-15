@@ -1,0 +1,31 @@
+{
+  "kind": "api-package-test-report",
+  "status": "passed",
+  "environment": {
+    "python": ".venv/bin/python",
+    "dependency": "lunar-python==1.4.8"
+  },
+  "commands": [
+    {
+      "command": "PATH=\"$PWD/.venv/bin:$PATH\" .venv/bin/python test_manse_engine.py",
+      "status": "passed",
+      "evidence": "manse engine tests passed"
+    },
+    {
+      "command": ".venv/bin/python test_compatibility_engine.py",
+      "status": "passed",
+      "evidence": "compatibility engine tests passed"
+    },
+    {
+      "command": "PYTHONPATH=engine python -m unittest engine/test_iching.py",
+      "cwd": "주역",
+      "status": "passed",
+      "evidence": "Ran 17 tests; OK"
+    }
+  ],
+  "scope": "reference engine verification",
+  "notes": [
+    "The earlier full manse-suite blocker is resolved in the project-local virtual environment.",
+    "No product web/API implementation exists in this workspace, so this report does not claim end-to-end product integration."
+  ]
+}

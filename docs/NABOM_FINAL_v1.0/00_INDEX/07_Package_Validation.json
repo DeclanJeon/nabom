@@ -1,0 +1,11 @@
+{
+  "package": "NABOM Final Modular Docs v1.0",
+  "validated_at": "2026-08-11",
+  "total_files": 55,
+  "markdown_files": 53,
+  "missing_markdown_references": [],
+  "old_versions_in_headings": [],
+  "duplicate_brand_tokens": [],
+  "canonical_route_conflicts": [],
+  "result": "PASS"
+}

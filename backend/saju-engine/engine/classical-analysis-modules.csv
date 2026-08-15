@@ -1,0 +1,13 @@
+module_code,ko_name,source_codes,input_dependencies,output_fields,modern_ko_rule,priority
+classical_source_weighting,고전 출처 가중치,classic-gungtongbogam;classic-japyeongjinjeon;classic-jeokcheonsu-yugi;classic-sammyeongtonghoe,literature-sources.csv;classical-principles.csv,source_weight;confidence,고전별 역할을 출처 가중치로 분리해 단일 문헌이 전체 판단을 독점하지 않게 한다,1
+month_command_extract,월령 추출,classic-japyeongjinjeon;classic-japyeongjeongsu,pillar-positions.csv;earthly-branches.csv;hidden-stems.csv,month_branch;month_hidden_stems;season_context,월지를 명식의 계절 중심축으로 삼고 지장간과 투출 상태를 함께 읽는다,2
+climate_adjustment,조후 보정,classic-gungtongbogam;classic-ohhaengdaeui,month_command_extract;elements.csv;heavenly-stems.csv,temperature_bias;moisture_bias;climate_use_god_candidates,춥고 덥고 마르고 습한 편차를 먼저 산출해 용신 후보의 우선순위를 보정한다,3
+day_master_strength,일간 강약,classic-jeokcheonsu-yugi;classic-japyeongjeongsu,day_master;month_command_extract;element_balance,day_master_strength;root_support;season_support,일간의 강약은 같은 오행 개수뿐 아니라 계절의 힘 뿌리 생조 극제를 함께 본다,4
+disease_medicine_balance,병약 균형,classic-japyeongjeongsu;classic-jeokcheonsu-cheonmi,element_balance;ten_god_profile;day_master_strength,disease_tags;medicine_candidates;excess_deficiency,과다하거나 부족한 축을 병으로 표시하고 완화하는 오행과 십성을 약 후보로 둔다,5
+useful_god_candidates,용신 후보,classic-japyeongjinjeon;classic-gungtongbogam;classic-japyeongjeongsu,month_command_extract;climate_adjustment;disease_medicine_balance,use_god_candidates;use_god_reason,월령 조후 병약을 종합해 하나 이상의 용신 후보와 근거를 산출한다,6
+xiangshen_helper,상신 보조,classic-japyeongjinjeon,useful_god_candidates;ten_god_profile;stem_relationships;branch_relationships,helper_candidates;helper_damage_flags,용신을 돕거나 살리는 보조 요소를 따로 표시하고 손상 여부를 기록한다,7
+pattern_assessment,격국 평가,classic-japyeongjinjeon;classic-yeonhaejapyeong;classic-sammyeongtonghoe,useful_god_candidates;month_command_extract;ten_god_profile,pattern_candidates;success_flags;failure_flags;rescue_flags,월령에서 시작해 성립 손상 구제 순서로 격국 후보를 평가한다,8
+pure_mixed_check,순잡 검사,classic-japyeongjinjeon,pattern_assessment;ten_god_profile,pure_mixed_state;mixing_notes,하나의 구조가 맑게 작동하는지 여러 기운이 섞여 혼탁해지는지 구분한다,9
+stars_as_overlay,신살 보조 레이어,classic-japyeongjinjeon;classic-sammyeongtonghoe,special_star_profile;twelve_shinsal_profile;pattern_assessment,star_overlay_notes;star_priority_warning,신살과 길성은 격국 판단을 대체하지 않고 보조 해석으로만 붙인다,10
+luck_interaction,운 상호작용,classic-japyeongjinjeon;classic-japyeongjeongsu,pattern_assessment;useful_god_candidates;luck_pillars,luck_support;luck_damage;luck_change_notes,운은 원국의 희기와 격국 성패를 보완하거나 손상시키는 변화값으로 본다,11
+plain_language_guardrail,현대어 표현 안전장치,classic-jeokcheonsu-baekhwa;classic-gilhyung,all_analysis_outputs,plain_language_summary;risk_language_level;actionable_caution,고전식 길흉 단정은 조건부 설명과 보완 가능한 조언으로 바꿔 출력한다,12

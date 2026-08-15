@@ -1,0 +1,10 @@
+relationship_type,left_stem,right_stem,result_element,ko_name,interpretation,source_ref
+combine,gap,gi,earth,갑기합토,갑목과 기토가 합하여 토 기운으로 변화 가능,/명리학/02_천간/00_소개.md
+combine,eul,gyeong,metal,을경합금,을목과 경금이 합하여 금 기운으로 변화 가능,/명리학/02_천간/00_소개.md
+combine,byeong,sin,water,병신합수,병화와 신금이 합하여 수 기운으로 변화 가능,/명리학/02_천간/00_소개.md
+combine,jeong,im,wood,정임합목,정화와 임수가 합하여 목 기운으로 변화 가능,/명리학/02_천간/00_소개.md
+combine,mu,gye,fire,무계합화,무토와 계수가 합하여 화 기운으로 변화 가능,/명리학/02_천간/00_소개.md
+clash,gap,gyeong,,갑경충,목과 금의 충돌로 갈등과 변동,/명리학/02_천간/00_소개.md
+clash,eul,sin,,을신충,목과 금의 충돌로 예민한 마찰,/명리학/02_천간/00_소개.md
+clash,byeong,im,,병임충,화와 수의 충돌로 방향 전환,/명리학/02_천간/00_소개.md
+clash,jeong,gye,,정계충,화와 수의 충돌로 내면 불안과 변화,/명리학/02_천간/00_소개.md

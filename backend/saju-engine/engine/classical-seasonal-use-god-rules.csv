@@ -1,0 +1,121 @@
+day_stem_code,day_stem_ko,month_branch_code,month_branch_ko,season_phase,climate_condition,primary_use_element,secondary_use_element,avoid_element,modern_rule,source_codes,confidence
+gap,갑,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,metal,fire,water,갑 일간이 인월에 나면 금을 먼저 살피고 화로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,metal,fire,water,갑 일간이 묘월에 나면 금을 먼저 살피고 화로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,water,earth,갑 일간이 진월에 나면 금을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,갑 일간이 사월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,갑 일간이 오월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,water,earth,갑 일간이 미월에 나면 금을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,water,fire,metal,갑 일간이 신월에 나면 수를 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,water,fire,metal,갑 일간이 유월에 나면 수를 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,water,earth,갑 일간이 술월에 나면 금을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,갑 일간이 해월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,갑 일간이 자월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gap,갑,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,water,earth,갑 일간이 축월에 나면 금을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,metal,fire,water,을 일간이 인월에 나면 금을 먼저 살피고 화로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,metal,fire,water,을 일간이 묘월에 나면 금을 먼저 살피고 화로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,water,earth,을 일간이 진월에 나면 금을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,을 일간이 사월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,을 일간이 오월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,water,earth,을 일간이 미월에 나면 금을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,water,fire,metal,을 일간이 신월에 나면 수를 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,water,fire,metal,을 일간이 유월에 나면 수를 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,water,earth,을 일간이 술월에 나면 금을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,을 일간이 해월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,을 일간이 자월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+eul,을,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,water,earth,을 일간이 축월에 나면 금을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,wood,earth,water,병 일간이 인월에 나면 목을 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,wood,earth,water,병 일간이 묘월에 나면 목을 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,병 일간이 진월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,병 일간이 사월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,병 일간이 오월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,병 일간이 미월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,wood,fire,metal,병 일간이 신월에 나면 목을 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,wood,fire,metal,병 일간이 유월에 나면 목을 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,병 일간이 술월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,wood,fire,water,병 일간이 해월에 나면 목을 먼저 살피고 화로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,wood,fire,water,병 일간이 자월에 나면 목을 먼저 살피고 화로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+byeong,병,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,병 일간이 축월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,wood,earth,water,정 일간이 인월에 나면 목을 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,wood,earth,water,정 일간이 묘월에 나면 목을 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,정 일간이 진월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,정 일간이 사월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,정 일간이 오월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,정 일간이 미월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,wood,fire,metal,정 일간이 신월에 나면 목을 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,wood,fire,metal,정 일간이 유월에 나면 목을 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,정 일간이 술월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,wood,fire,water,정 일간이 해월에 나면 목을 먼저 살피고 화로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,wood,fire,water,정 일간이 자월에 나면 목을 먼저 살피고 화로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+jeong,정,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,정 일간이 축월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,fire,earth,wood,무 일간이 인월에 나면 화를 먼저 살피고 토로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,fire,earth,wood,무 일간이 묘월에 나면 화를 먼저 살피고 토로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,무 일간이 진월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,무 일간이 사월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,무 일간이 오월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,무 일간이 미월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,fire,wood,metal,무 일간이 신월에 나면 화를 먼저 살피고 목으로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,fire,wood,metal,무 일간이 유월에 나면 화를 먼저 살피고 목으로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,무 일간이 술월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,wood,water,무 일간이 해월에 나면 화를 먼저 살피고 목으로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,wood,water,무 일간이 자월에 나면 화를 먼저 살피고 목으로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+mu,무,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,무 일간이 축월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,fire,earth,wood,기 일간이 인월에 나면 화를 먼저 살피고 토로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,fire,earth,wood,기 일간이 묘월에 나면 화를 먼저 살피고 토로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,기 일간이 진월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,기 일간이 사월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,metal,fire,기 일간이 오월에 나면 수를 먼저 살피고 금으로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,기 일간이 미월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,fire,wood,metal,기 일간이 신월에 나면 화를 먼저 살피고 목으로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,fire,wood,metal,기 일간이 유월에 나면 화를 먼저 살피고 목으로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,기 일간이 술월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,wood,water,기 일간이 해월에 나면 화를 먼저 살피고 목으로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,wood,water,기 일간이 자월에 나면 화를 먼저 살피고 목으로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gi,기,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,water,earth,기 일간이 축월에 나면 목을 먼저 살피고 수로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,earth,fire,wood,경 일간이 인월에 나면 토를 먼저 살피고 화로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,earth,fire,wood,경 일간이 묘월에 나면 토를 먼저 살피고 화로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,fire,earth,경 일간이 진월에 나면 목을 먼저 살피고 화로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,earth,fire,경 일간이 사월에 나면 수를 먼저 살피고 토로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,earth,fire,경 일간이 오월에 나면 수를 먼저 살피고 토로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,fire,earth,경 일간이 미월에 나면 목을 먼저 살피고 화로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,fire,water,metal,경 일간이 신월에 나면 화를 먼저 살피고 수로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,fire,water,metal,경 일간이 유월에 나면 화를 먼저 살피고 수로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,fire,earth,경 일간이 술월에 나면 목을 먼저 살피고 화로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,경 일간이 해월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,경 일간이 자월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gyeong,경,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,fire,earth,경 일간이 축월에 나면 목을 먼저 살피고 화로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,earth,fire,wood,신 일간이 인월에 나면 토를 먼저 살피고 화로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,earth,fire,wood,신 일간이 묘월에 나면 토를 먼저 살피고 화로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,fire,earth,신 일간이 진월에 나면 목을 먼저 살피고 화로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,earth,fire,신 일간이 사월에 나면 수를 먼저 살피고 토로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,water,earth,fire,신 일간이 오월에 나면 수를 먼저 살피고 토로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,fire,earth,신 일간이 미월에 나면 목을 먼저 살피고 화로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,fire,water,metal,신 일간이 신월에 나면 화를 먼저 살피고 수로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,fire,water,metal,신 일간이 유월에 나면 화를 먼저 살피고 수로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,fire,earth,신 일간이 술월에 나면 목을 먼저 살피고 화로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,신 일간이 해월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,신 일간이 자월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+sin,신,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,wood,fire,earth,신 일간이 축월에 나면 목을 먼저 살피고 화로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,metal,earth,wood,임 일간이 인월에 나면 금을 먼저 살피고 토로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,metal,earth,wood,임 일간이 묘월에 나면 금을 먼저 살피고 토로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,wood,earth,임 일간이 진월에 나면 금을 먼저 살피고 목으로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,metal,water,fire,임 일간이 사월에 나면 금을 먼저 살피고 수로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,metal,water,fire,임 일간이 오월에 나면 금을 먼저 살피고 수로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,wood,earth,임 일간이 미월에 나면 금을 먼저 살피고 목으로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,wood,fire,metal,임 일간이 신월에 나면 목을 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,wood,fire,metal,임 일간이 유월에 나면 목을 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,wood,earth,임 일간이 술월에 나면 금을 먼저 살피고 목으로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,임 일간이 해월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,임 일간이 자월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+im,임,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,wood,earth,임 일간이 축월에 나면 금을 먼저 살피고 목으로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,in,인,early_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,metal,earth,wood,계 일간이 인월에 나면 금을 먼저 살피고 토로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,myo,묘,mid_spring,생장 기운은 강하지만 초봄은 한기가 남고 늦봄은 목기가 과해질 수 있음,metal,earth,wood,계 일간이 묘월에 나면 금을 먼저 살피고 토로 보조하며 목의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,jin,진,late_spring,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,wood,earth,계 일간이 진월에 나면 금을 먼저 살피고 목으로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,sa,사,early_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,metal,water,fire,계 일간이 사월에 나면 금을 먼저 살피고 수로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,o,오,mid_summer,화기가 강하고 건조해지기 쉬워 수기로 열을 조절해야 함,metal,water,fire,계 일간이 오월에 나면 금을 먼저 살피고 수로 보조하며 화의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,mi,미,late_summer,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,wood,earth,계 일간이 미월에 나면 금을 먼저 살피고 목으로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,sin,신,early_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,wood,fire,metal,계 일간이 신월에 나면 목을 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,yu,유,mid_autumn,금기가 강하고 건조해지기 쉬워 온기와 윤택함을 함께 살펴야 함,wood,fire,metal,계 일간이 유월에 나면 목을 먼저 살피고 화로 보조하며 금의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,sul,술,late_autumn,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,wood,earth,계 일간이 술월에 나면 금을 먼저 살피고 목으로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,hae,해,early_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,계 일간이 해월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,ja,자,mid_winter,수기가 강하고 한랭해져 화기로 온도를 회복해야 함,fire,earth,water,계 일간이 자월에 나면 화를 먼저 살피고 토로 보조하며 수의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium
+gye,계,chuk,축,late_winter,토기가 계절을 전환하므로 막힘과 습도를 함께 조절해야 함,metal,wood,earth,계 일간이 축월에 나면 금을 먼저 살피고 목으로 보조하며 토의 과다를 경계한다.,classic-gungtongbogam;classic-japyeongjinjeon;classic-japyeongjeongsu,medium

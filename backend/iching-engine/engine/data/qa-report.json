@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "kind": "algorithm-test-report",
+  "surface": "algorithm",
+  "status": "passed_with_documented_limitations",
+  "commands": [
+    "python engine/build_dataset.py",
+    "python -m unittest discover -s engine -p 'test_*.py'",
+    "exhaustive resolve_casts over 4096 combinations",
+    "python -m engine --casts 7 8 9 7 6 8"
+  ],
+  "results": {
+    "unitTests": 13,
+    "castCombinations": 4096,
+    "hexagrams": 64,
+    "regularLines": 384,
+    "specialLines": 2,
+    "englishTranslations": 64,
+    "englishJudgments": 64,
+    "englishLines": 384,
+    "wingChapters": 38,
+    "wingCatalogComponents": 10,
+    "tuanQueries": 64,
+    "xiangGreatQueries": 64,
+    "xiangSmallQueries": 384,
+    "linePolarityChecks": 384,
+    "cliInvalidInputCheck": "passed"
+  },
+  "fixed_findings": [
+    "Intermediate 九 lines now have yang polarity and are checked against canonical bits.",
+    "用九 and 用六 are returned and included in interpretation focus for all-moving Qian and Kun casts.",
+    "Caller-provided empty or malformed datasets are no longer replaced by disk data.",
+    "Tuan and Xiang are available through the same wing query boundary as the seven local wing files.",
+    "Xiang access now exposes 64 大象 records and 384 小象 records.",
+    "A ten-component Wing catalog now distinguishes Tuan/Xiang, Wenyan, Xici, Shuogua, Xugua, and Zagua.",
+    "English Legge data now has structured judgment and six-line fields for all 64 hexagrams.",
+    "Float and boolean cast values are rejected.",
+    "CLI validation errors are concise argparse errors without tracebacks."
+  ],
+  "limitations": [
+    "The structured English dataset is imported from an external public-domain Legge implementation and should still be spot-checked against the original Sacred Texts HTML/1882 edition before publication.",
+    "The moving-line interpretation policy is explicit and fixed as explicit_moving_line_policy_v1; it is not a claim of one universal historical school.",
+    "CLI currently exposes casting, not a separate wing or translation query command."
+  ]
+}

@@ -1,0 +1,15 @@
+rule_code,rule_family,input_tables,weight_delta,good_copy,caution_copy,output_bucket
+stem_generates_partner,stem,heavenly-stem-relationships.csv;elements.csv,8,내 일간이 상대를 자연스럽게 북돋우는 흐름,한쪽만 계속 에너지를 주면 피로가 쌓일 수 있음,good
+stem_supported_by_partner,stem,heavenly-stem-relationships.csv;elements.csv,8,상대가 내 일간을 안정적으로 지지하는 흐름,도움이 간섭처럼 느껴지지 않게 자율성 필요,good
+stem_controls_partner,stem,heavenly-stem-relationships.csv;elements.csv,-5,기준과 방향을 세워주는 긴장감,통제나 평가로 느껴질 수 있음,caution
+stem_controlled_by_partner,stem,heavenly-stem-relationships.csv;elements.csv,-5,나를 정리하게 만드는 자극,압박감이 커지면 방어적으로 변할 수 있음,caution
+stem_same_element,stem,heavenly-stems.csv;elements.csv,4,비슷한 감각과 속도로 빠르게 친해짐,같은 강점과 약점이 겹칠 수 있음,good
+stem_combine,stem,heavenly-stem-relationships.csv,7,천간합은 강한 끌림과 협업 포인트,끌림이 강할수록 기대치도 빨리 커질 수 있음,good
+stem_clash,stem,heavenly-stem-relationships.csv,-7,서로를 깨우는 차이와 변화 자극,말투 가치관 판단 기준에서 부딪힘 가능,tension
+branch_six_harmony,branch,earthly-branch-relationships.csv,8,일상 리듬과 친밀감이 맞기 쉬움,편안함에 기대어 대화를 미루지 않기,good
+branch_triad,branch,earthly-branch-relationships.csv,7,함께 움직일 때 시너지가 나는 방향성,관계 밖 목표가 관계를 압도하지 않게 조율,good
+branch_seasonal,branch,earthly-branch-relationships.csv,5,비슷한 계절감으로 생활 패턴을 맞추기 쉬움,둘 다 같은 감정 온도에 갇힐 수 있음,support
+branch_clash,branch,earthly-branch-relationships.csv,-8,관계를 움직이게 하는 강한 이벤트성,가까워질수록 생활 방식 충돌 가능,tension
+branch_punishment,branch,earthly-branch-relationships.csv,-6,무의식적 반복 패턴을 알아차릴 기회,서운함이 쌓이면 해석보다 확인 대화 필요,caution
+useful_element_complement,element,classical-seasonal-use-god-rules.csv;elements.csv,10,상대가 내 균형 오행을 보완하면 관계 만족감 상승,보완이 의존으로 굳지 않게 개인 루틴 유지,support
+data_quality_penalty,quality,manse-calculation-rules.csv;public-figure-saju-source-metrics.csv,-10,정확한 생시와 절기 계산이 있으면 설명 선명도 상승,생시 미상이나 절기 경계는 점수보다 범위 설명 우선,quality

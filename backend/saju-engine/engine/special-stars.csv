@@ -1,0 +1,15 @@
+special_star_code,ko_name,hanja_name,star_family,base_axis,modern_domain,positive_keywords,caution_keywords,visual_seed,source_ref
+cheon-eul-gwiin,천을귀인,天乙貴人,noble,day_stem_to_branch,최고 귀인과 인덕,도움;품위;위기해소,의존,guardian_halo;helper_badge,/명리학/07_신살/천을귀인.md
+taegeuk-gwiin,태극귀인,太極貴人,noble,day_stem_to_branch,균형과 조화,근원;조화;안정,현실감부족,taegeuk_disc;balance_aura,/명리학/07_신살/태극귀인.md
+mun-chang-gwiin,문창귀인,文昌貴人,noble,day_stem_to_branch,글과 학업 표현,문장;시험;콘텐츠,말뿐임,brush_scroll;ink_star,/명리학/07_신살/문창귀인.md
+mun-gok-gwiin,문곡귀인,文曲貴人,noble,day_stem_to_branch,예술과 문예 감각,예술;음악;창작,감성기복,music_scroll;curved_brush,/명리학/07_신살/문곡귀인.md
+hakdang-gwiin,학당귀인,學堂貴人,noble,day_stem_life_stage,학습과 지식 탐구,학업;이해;평생학습,실전부족,academy_gate;book_light,/명리학/07_신살/학당귀인.md
+cheonju-gwiin,천주귀인,天廚貴人,noble,day_stem_food_blessing,식록과 생활 기반,식복;물질안정;대우,안일함,rice_bowl;gold_spoon,/명리학/07_신살/천주귀인.md
+woldok-gwiin,월덕귀인,月德貴人,noble,month_branch_to_stem,달의 덕과 보호,덕;평판;흉살완화,착한사람증후군,moon_halo;soft_guard,/명리학/07_신살/월덕귀인.md
+geum-yeo-seong,금여성,金輿星,noble,day_stem_to_branch,배우자 복과 외적 품격,배우자복;풍요;품위,외적조건집착,golden_carriage;jewel_seat,/명리학/07_신살/금여성.md
+yangin-sal,양인살,羊刃殺,blade,day_stem_to_branch,강한 추진력과 양날의 칼,실행;돌파;리더십,성급함;충돌,double_edge_blade;red_edge,/명리학/07_신살/양인살.md
+baekho-daesal,백호대살,白虎大殺,blade,year_branch_to_day_branch,위기 속 결단과 의료 군사,용기;결단;보호,수술;사고,white_tiger_mark;blade_claw,/명리학/07_신살/백호대살.md
+hyeonchim-sal,현침살,懸針殺,skill,stem_or_branch_glyph,정밀함과 손기술,정밀;집중;기술,날카로움;수술,needle_mark;fine_tool,/명리학/07_신살/현침살.md
+hongyeom-sal,홍염살,紅艶殺,charm,day_stem_to_branch,강렬한 대중 매력,매력;연예;서비스,이성문제;감정과잉,red_flower_aura;stage_charm,/명리학/07_신살/홍염살.md
+gwigang-sal,괴강살,魁罡殺,power,day_pillar_fixed,강한 정상 지향,권위;정상;결단,강압;고립,iron_star;command_seal,/명리학/07_신살/괴강살.md
+gwimun-gwan-sal,귀문관살,鬼門關殺,sensitive,pillar_combination,직감과 심리 예민성,통찰;상담;예술,소진;불안,spirit_gate;deep_eye,/명리학/07_신살/귀문관살.md

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NABOM Saju Chart Request/Response",
+  "type": "object",
+  "definitions": {
+    "birth_input": {
+      "type": "object",
+      "required": ["calendar", "date"],
+      "properties": {
+        "calendar": { "enum": ["solar", "lunar"] },
+        "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "time": { "type": "string" },
+        "time_precision": { "enum": ["exact", "approximate", "unknown"] },
+        "is_lunar_leap_month": { "type": ["boolean", "null"] },
+        "location": {
+          "type": "object",
+          "properties": {
+            "label": { "type": "string" },
+            "timezone": { "type": "string" },
+            "lat": { "type": "number" },
+            "lon": { "type": "number" }
+          }
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "title": "request",
+      "type": "object",
+      "required": ["birth_input", "calculation_policy"],
+      "properties": {
+        "birth_input": { "$ref": "#/definitions/birth_input" },
+        "calculation_policy": {
+          "type": "object",
+          "properties": {
+            "allow_unconverted_lunar": { "type": "boolean", "default": false },
+            "quality_mode": { "enum": ["standard", "strict"], "default": "standard" }
+          }
+        }
+      }
+    },
+    {
+      "title": "response",
+      "type": "object",
+      "required": ["contract_version", "engine_version", "chart", "quality", "request_id"],
+      "properties": {
+        "contract_version": { "type": "string" },
+        "engine_version": { "type": "string" },
+        "chart": { "type": "object" },
+        "character_profile": { "type": "object" },
+        "element_analysis": { "type": "object" },
+        "quality": {
+          "type": "object",
+          "required": ["flags", "confidence_band", "exact_claims_allowed"],
+          "properties": {
+            "flags": { "type": "array", "items": { "type": "string" } },
+            "confidence_band": { "enum": ["high", "medium", "limited", "low"] },
+            "exact_claims_allowed": { "type": "boolean" }
+          }
+        },
+        "evidence_refs": { "type": "array", "items": { "type": "string" } },
+        "request_id": { "type": "string" }
+      }
+    }
+  ]
+}

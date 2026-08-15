@@ -1,0 +1,11 @@
+rule_code,ko_name,input_data,calculation_rule,quality_flag,source_tables
+birth_input_normalization,출생 입력 정규화,birth_date;birth_time;calendar_type;birth_place;gender,양력 음력 여부 시간대 출생지를 먼저 구조화하고 불명확한 값은 품질 플래그로 남긴다,requires_calendar_and_timezone,saju-foundations.csv;pillar-positions.csv
+timezone_localization,시간대 현지화,birth_place;birth_datetime,대한민국 출생은 Asia/Seoul 기준으로 계산하고 해외 출생은 현지 시간대와 경도 보정 가능성을 기록한다,verified_timezone_or_location_risk,saju-foundations.csv
+solar_date_basis,양력 기준일,normalized_birth_date,명식 계산의 기준 날짜는 양력 날짜로 통일하고 음력 입력은 변환 이력을 함께 보존한다,solar_conversion_required_when_lunar,saju-foundations.csv
+year_pillar_ipchun,입춘 기준 연주,solar_birth_datetime;solar_terms,연주는 양력 1월 1일이 아니라 입춘 절입 시각을 기준으로 바뀐다,boundary_risk_near_ipchun,gapja-combinations.csv
+month_pillar_solar_terms,절기 기준 월지,solar_birth_datetime;solar_terms,월지는 12절기 시작점으로 배정하며 정월은 인월 입춘부터 시작한다,boundary_risk_near_solar_term,solar-term-month-boundaries.csv;earthly-branches.csv
+month_stem_by_year_stem,연간 기준 월간,year_stem;month_branch,연간 오합 그룹별 첫 인월 월간을 정하고 이후 월마다 천간을 순행한다,requires_verified_year_stem,month-stem-start-rules.csv;heavenly-stems.csv
+day_pillar_reference_cycle,기준일 기반 일주,solar_birth_date;reference_day_pillar,검증된 기준일 일주에서 날짜 차이를 60갑자 순환으로 계산한다,requires_audited_reference_date,gapja-combinations.csv
+hour_branch_two_hour_blocks,두 시간 단위 시지,localized_birth_time,자시는 23시부터 시작하고 나머지 지지는 두 시간 단위로 배정한다,birth_time_uncertain_if_range_crosses_boundary,earthly-branches.csv
+hour_stem_by_day_stem,일간 기준 시간,day_stem;hour_branch,일간 그룹별 첫 자시 천간을 정하고 시지 순서에 따라 천간을 순행한다,requires_verified_day_stem,hour-stem-start-rules.csv;heavenly-stems.csv
+quality_flags,계산 품질 플래그,all_calculation_steps,절기 경계 출생시각 범위 음양력 변환 공개데이터 결측을 별도 플래그로 출력한다,always_emit_quality_flags,public-figure-saju-source-metrics.csv;analysis-output-fields.csv

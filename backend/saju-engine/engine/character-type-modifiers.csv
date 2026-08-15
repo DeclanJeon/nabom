@@ -1,0 +1,16 @@
+modifier_code,modifier_family,source_code,ko_name,profile_effect,positive_keywords,caution_keywords,visual_overlay,source_tables
+ten_god_bijeon,ten_god,bijeon,비견,독립성과 자기 기준을 강화하는 동료형 에너지,독립;자존;주체성,고집;배타;재물분산,twin_shadow;matching_bracelet,ten-god-traits.csv;ten-god-overlays.csv
+ten_god_geopjae,ten_god,geopjae,겁재,승부욕과 네트워크를 여는 경쟁형 에너지,도전;승부;개척,무모함;투기;탕진,split_sash;motion_lines,ten-god-traits.csv;ten-god-overlays.csv
+ten_god_siksin,ten_god,siksin,식신,재능을 안정적으로 생산하는 창작형 에너지,재능;여유;복록,나태;과식;안일,food_bowl;fruit_badge,ten-god-traits.csv;ten-god-overlays.csv
+ten_god_sanggwan,ten_god,sanggwan,상관,새로운 표현과 변화를 만드는 혁신형 에너지,창의;표현;혁신,반항;독설;구설,brush;microphone;sparks,ten-god-traits.csv;ten-god-overlays.csv
+ten_god_pyeonjae,ten_god,pyeonjae,편재,기회 포착과 활동성을 키우는 확장형 에너지,사업감각;인맥;활동성,큰지출;분산;이성복잡,coin_pouch;map,ten-god-traits.csv;ten-god-overlays.csv
+ten_god_jeongjae,ten_god,jeongjae,정재,실속 관리와 안정감을 만드는 운영형 에너지,성실;절약;관리,인색;소심;기회상실,ledger;key;scale,ten-god-traits.csv;ten-god-overlays.csv
+ten_god_pyeongwan,ten_god,pyeongwan,편관,압박 속 결단과 위기 대응을 만드는 돌파형 에너지,카리스마;위기관리;결단,공격성;압박;사고,shield;diagonal_tension,ten-god-traits.csv;ten-god-overlays.csv
+ten_god_jeonggwan,ten_god,jeonggwan,정관,책임 기준 명예를 세우는 시스템형 에너지,질서;책임;명예,경직;눈치;압박,seal;official_sash,ten-god-traits.csv;ten-god-overlays.csv
+ten_god_pyeonin,ten_god,pyeonin,편인,직감 연구 비정형 지혜를 여는 탐색형 에너지,직감;독창;비정형지혜,산만;고독;도식,talisman;secret_book;mist,ten-god-traits.csv;ten-god-overlays.csv
+ten_god_jeongin,ten_god,jeongin,정인,학습 보호 수용을 만드는 안정형 에너지,학문;보호;수용,생각과다;의존;재성약화,book;cloak;halo,ten-god-traits.csv;ten-god-overlays.csv
+element_wood,element_balance,wood,청룡,성장과 확장,배움과 관계 확장을 위한 주 1회 새 시도,계획만 세우지 말고 작은 실행까지 연결,성장 루틴,elements.csv
+element_fire,element_balance,fire,주작,표현과 추진,생각을 말 글 발표 콘텐츠로 밖에 꺼내기,과열되면 휴식과 수면으로 균형,표현 루틴,elements.csv
+element_earth,element_balance,earth,황룡,안정과 현실화,공간 일정 몸상태를 매일 10분 정리,완벽주의보다 반복 가능한 기준,정리 루틴,elements.csv
+element_metal,element_balance,metal,백호,기준과 성과,선택 기준을 정하고 불필요한 일을 줄이기,날카로운 판단은 부드러운 표현으로 보정,결정 루틴,elements.csv
+element_water,element_balance,water,현무,전략과 통찰,정보 휴식 감정을 기록하며 흐름을 읽기,생각이 깊어질수록 몸을 움직여 순환,회복 루틴,elements.csv

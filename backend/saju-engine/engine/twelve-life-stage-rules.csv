@@ -1,0 +1,11 @@
+day_stem_code,direction,start_stage,start_branch,branch_sequence_for_stages,source_ref
+gap,forward,장생,hae,hae;ja;chuk;in;myo;jin;sa;o;mi;sin;yu;sul,/명리학/05_12운성/00_소개.md
+eul,reverse,장생,o,o;sa;jin;myo;in;chuk;ja;hae;sul;yu;sin;mi,/명리학/05_12운성/00_소개.md
+byeong,forward,장생,in,in;myo;jin;sa;o;mi;sin;yu;sul;hae;ja;chuk,/명리학/05_12운성/00_소개.md
+jeong,reverse,장생,yu,yu;sin;mi;o;sa;jin;myo;in;chuk;ja;hae;sul,/명리학/05_12운성/00_소개.md
+mu,forward,장생,in,in;myo;jin;sa;o;mi;sin;yu;sul;hae;ja;chuk,/명리학/05_12운성/00_소개.md
+gi,reverse,장생,yu,yu;sin;mi;o;sa;jin;myo;in;chuk;ja;hae;sul,/명리학/05_12운성/00_소개.md
+gyeong,forward,장생,sa,sa;o;mi;sin;yu;sul;hae;ja;chuk;in;myo;jin,/명리학/05_12운성/00_소개.md
+sin,reverse,장생,ja,ja;hae;sul;yu;sin;mi;o;sa;jin;myo;in;chuk,/명리학/05_12운성/00_소개.md
+im,forward,장생,sin,sin;yu;sul;hae;ja;chuk;in;myo;jin;sa;o;mi,/명리학/05_12운성/00_소개.md
+gye,reverse,장생,myo,myo;in;chuk;ja;hae;sul;yu;sin;mi;o;sa;jin,/명리학/05_12운성/00_소개.md

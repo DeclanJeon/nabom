@@ -1,0 +1,9 @@
+feature_code,ko_name,weight,max_points,good_when,caution_when,source_tables
+day_stem_relation,일간 관계,20,20,서로 생하거나 합을 이루면 기본 호감과 이해가 빠르다,상극과 충이 강하면 표현 방식 차이를 먼저 설명한다,heavenly-stem-relationships.csv;earthly-branch-relationships.csv;ten-god-stem-map.csv;twelve-shinsal-rules.csv;modern-principles.csv
+day_branch_relation,일지 관계,18,18,합 삼합 방합은 생활 리듬과 친밀감 포인트로 본다,충 형 파 해는 가까워질수록 부딪히는 패턴으로 본다,heavenly-stem-relationships.csv;earthly-branch-relationships.csv;ten-god-stem-map.csv;twelve-shinsal-rules.csv;modern-principles.csv
+element_balance_complement,오행 보완,16,16,부족한 오행을 상대가 안정적으로 보완하면 성장감이 크다,한 오행이 과열되면 관계가 한 방향으로 쏠릴 수 있다,heavenly-stem-relationships.csv;earthly-branch-relationships.csv;ten-god-stem-map.csv;twelve-shinsal-rules.csv;modern-principles.csv
+ten_god_role_fit,십신 역할 궁합,14,14,상대가 나에게 편안한 사회적 역할로 작동하면 관계 정의가 쉽다,압박 통제 경쟁이 강하면 기대치를 조율해야 한다,heavenly-stem-relationships.csv;earthly-branch-relationships.csv;ten-god-stem-map.csv;twelve-shinsal-rules.csv;modern-principles.csv
+useful_element_support,용신 보완,12,12,희용 오행을 상대 명식이 도우면 좋은 타이밍과 실질 도움으로 읽는다,기신 쪽이 강하면 좋은 감정과 별개로 피로가 쌓일 수 있다,heavenly-stem-relationships.csv;earthly-branch-relationships.csv;ten-god-stem-map.csv;twelve-shinsal-rules.csv;modern-principles.csv
+relationship_trigger_risk,합충형파해 리스크,10,10,"합은 끌림과 연결을, 충은 변화와 이벤트를 구분해 해석한다",충 형 파 해가 겹치면 반복 갈등 주제를 카드로 분리한다,heavenly-stem-relationships.csv;earthly-branch-relationships.csv;ten-god-stem-map.csv;twelve-shinsal-rules.csv;modern-principles.csv
+twelve_shinsal_resonance,12신살 공명,6,6,도화 역마 화개 등은 관계 분위기와 행동 패턴의 보조 힌트로 쓴다,12신살은 보조지표이며 단독 결론으로 쓰지 않는다,heavenly-stem-relationships.csv;earthly-branch-relationships.csv;ten-god-stem-map.csv;twelve-shinsal-rules.csv;modern-principles.csv
+data_quality_confidence,데이터 품질,4,4,양쪽 출생시와 절기 계산이 검증되면 설명 신뢰도를 높인다,출생시 미상 공개데이터 결측 절기 경계는 점수보다 품질 안내를 우선한다,heavenly-stem-relationships.csv;earthly-branch-relationships.csv;ten-god-stem-map.csv;twelve-shinsal-rules.csv;modern-principles.csv

@@ -1,0 +1,11 @@
+stem_code,order_no,ko_name,hanja_name,element_code,yinyang,season,direction,archetype,core_traits,visual_seed,stem_combine_with,combine_result_element,stem_clash_with,source_ref
+gap,1,갑,甲,wood,yang,봄,동쪽,큰나무;개척자,시작;리더십;정직;상승,straight_tree;leader;green_robes,gi,earth,gyeong,/명리학/02_천간/gap-gab.md
+eul,2,을,乙,wood,yin,봄,동쪽,풀꽃;덩굴,유연함;섬세함;사교성;적응,flower_vine;soft_green;elegant,gyeong,metal,sin,/명리학/02_천간/eul.md
+byeong,3,병,丙,fire,yang,여름,남쪽,태양;광명,밝음;열정;공개성;확산,sun;gold_red;wide_smile,sin,water,im,/명리학/02_천간/byeong.md
+jeong,4,정,丁,fire,yin,여름,남쪽,촛불;별빛,집중;예술성;섬세함;내면열정,candle;small_flame;scholar_lamp,im,wood,gye,/명리학/02_천간/jeong.md
+mu,5,무,戊,earth,yang,환절기,중앙,큰산;대지,안정;포용;묵직함;중심,mountain;earth_armor;steady_pose,gye,fire,,/명리학/02_천간/mu.md
+gi,6,기,己,earth,yin,환절기,중앙,논밭;정원흙,양육;세심함;수용;돌봄,garden_soil;warm_brown;caretaker,gap,earth,,/명리학/02_천간/gi.md
+gyeong,7,경,庚,metal,yang,가을,서쪽,강철;큰칼,결단;의리;원칙;보호,steel_blade;silver;warrior,eul,metal,gap,/명리학/02_천간/gyeong.md
+sin,8,신,辛,metal,yin,가을,서쪽,보석;바늘,정교함;미감;예민함;완성,jewel;needle;white_silver,byeong,water,eul,/명리학/02_천간/sin.md
+im,9,임,壬,water,yang,겨울,북쪽,바다;큰강,포용;지혜;흐름;스케일,ocean;wave_cloak;deep_blue,jeong,wood,byeong,/명리학/02_천간/im.md
+gye,10,계,癸,water,yin,겨울,북쪽,비;이슬;샘물,관찰;분석;고요함;침투,raindrop;mist;dark_blue,mu,fire,jeong,/명리학/02_천간/gye.md

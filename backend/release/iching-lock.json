@@ -1,0 +1,29 @@
+{
+  "lock_version": 1,
+  "root": "/home/declan/Documents/Develop/Project/nabom/backend/iching-engine",
+  "entry_count": 22,
+  "entries": {
+    "app/main.py": "0a03239967ffc820d2cfce3cc1aece5baf6f13dd30c6a4e1bdc0ba4f71130ae9",
+    "engine/__main__.py": "026b3a1b6ccf6857022e2fdd7603ae01a113b395dc1ea83f316efc4732e7654e",
+    "engine/advice.py": "c17ed316c5fe1d7027d0cd9a66e023a2a36f8b26990b1821bc87564068f93742",
+    "engine/data/advice-qa-report.json": "562d2d009ca0078c2f7438bffa548ed94922d05fece1dea5177905ce9d7664ea",
+    "engine/data/dataset.json": "8d9ad932b6d3daf2775f187310c734c934fcb6268d0d8d94b874de4d77bebcd4",
+    "engine/data/hexagrams.csv": "ddf472fa412acfb34697b8e56903bf1ad11a83c57eff924267779c025a74224b",
+    "engine/data/korean_translations.json": "ff5efafc419ffeb4b379c0bbe0906bc79990b5695138022b7bcd24b35446f684",
+    "engine/data/legge.json": "d25ab68d028c00b12ef6aa7d61227694c111577c483b661ba0f7d90f4d5eec1b",
+    "engine/data/lines.csv": "36c99e7037bfa0ac17b6c5d0e75e6931d19ed37f8e629b78336e708ab9e364f1",
+    "engine/data/qa-report.json": "75c031b86f77341c8b785f049e731fb6a4a20f01009979424e67798e52045d02",
+    "engine/data/quality-gate.json": "b15ca0184d1c368ef3e344f3bbc0f58e52564232550749c23e05f93278fcc7ab",
+    "engine/data/relationships.csv": "f25029196fe97e1034088daffd2efd73f32255b3df65968612f7a4cfacb5ca43",
+    "engine/data/sources.csv": "7849042fe394eaa0b8daebeba55e0a68a83d7672ffb1d4e94a4fe5132db77ac8",
+    "engine/data/special_lines.csv": "c33ed7ec44aea628d617f1261d7ab0f7996245550ae44948cfec465f145dab56",
+    "engine/data/theme_interpretations.json": "f9d423274bc4d9fec61b56d5f36f0f5572f73536709d7fbd72c849ee1e34aced",
+    "engine/data/theme_links.csv": "3642ebad50c5279e2875102332017c3e78666c18c80e97d8f14c32c3ada482ab",
+    "engine/data/translations_legge.csv": "d6ce31380130b3815765a17b74ede9ad88447468499df79e1df9a2ac4fa14b86",
+    "engine/data/trigrams.csv": "3b3e104ec57d290f1dd9f0f3eb8420ac801f8ebe3fdd3dd63eb77422316d0500",
+    "engine/data/wings.csv": "b795c4c1a1549ac0b1aa6da647290d1d1680266c9a17de7546951e0fff8d7faa",
+    "engine/iching.py": "f7de3f37c7f7f9bd1ed9901e3ae89e74f4c1afc50a0e1a5b19ce04a376c68d03",
+    "engine/ingest_theme_interpretations.py": "157139d93bd01200deebb8283958e36ef3f3feba4893f4a29e22422e41392b66",
+    "engine/reflection_resolver.py": "ef5c3a1aef326ff17253f9fba8f8c395e51f4988d216a6acfcefae73ba6b8bd8"
+  }
+}

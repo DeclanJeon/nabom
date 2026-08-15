@@ -1,0 +1,11 @@
+archetype_code,day_stem_code,day_stem_hanja,element_code,guardian_beast,type_label_ko,plain_summary,core_traits,visual_seed,source_tables
+gap_day_master,gap,甲,wood,청룡,개척자,곧게 시작하고 길을 여는 타입,시작;리더십;정직;상승,straight_tree;leader;green_robes,heavenly-stems.csv;elements.csv
+eul_day_master,eul,乙,wood,청룡,조율가,부드럽게 연결하고 적응하는 타입,유연함;섬세함;사교성;적응,flower_vine;soft_green;elegant,heavenly-stems.csv;elements.csv
+byeong_day_master,byeong,丙,fire,주작,스포트라이터,밝게 드러내고 분위기를 여는 타입,밝음;열정;공개성;확산,sun;gold_red;wide_smile,heavenly-stems.csv;elements.csv
+jeong_day_master,jeong,丁,fire,주작,집중가,작은 불씨를 오래 지키는 타입,집중;예술성;섬세함;내면열정,candle;small_flame;scholar_lamp,heavenly-stems.csv;elements.csv
+mu_day_master,mu,戊,earth,황룡,중심축,흔들리지 않고 판을 받치는 타입,안정;포용;묵직함;중심,mountain;earth_armor;steady_pose,heavenly-stems.csv;elements.csv
+gi_day_master,gi,己,earth,황룡,케어테이커,세밀하게 돌보고 현실을 가꾸는 타입,양육;세심함;수용;돌봄,garden_soil;warm_brown;caretaker,heavenly-stems.csv;elements.csv
+gyeong_day_master,gyeong,庚,metal,백호,결단가,기준을 세우고 빠르게 정리하는 타입,결단;의리;원칙;보호,steel_blade;silver;warrior,heavenly-stems.csv;elements.csv
+sin_day_master,sin,辛,metal,백호,디테일러,정교하게 다듬고 완성도를 높이는 타입,정교함;미감;예민함;완성,jewel;needle;white_silver,heavenly-stems.csv;elements.csv
+im_day_master,im,壬,water,현무,전략가,큰 흐름을 읽고 판을 넓히는 타입,포용;지혜;흐름;스케일,ocean;wave_cloak;deep_blue,heavenly-stems.csv;elements.csv
+gye_day_master,gye,癸,water,현무,탐구자,조용히 관찰하고 깊게 파고드는 타입,관찰;분석;고요함;침투,raindrop;mist;dark_blue,heavenly-stems.csv;elements.csv

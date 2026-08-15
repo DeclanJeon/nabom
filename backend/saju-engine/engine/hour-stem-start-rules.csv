@@ -1,0 +1,6 @@
+day_stem_codes,day_stem_hanja,start_hour_stem_code,start_hour_stem_hanja,first_hour_pillar,rule_summary,source_tables
+gap;gi,甲己,gap,甲,甲子,갑일과 기일은 갑자시부터 시작한다,heavenly-stems.csv;earthly-branches.csv;gapja-combinations.csv
+eul;gyeong,乙庚,byeong,丙,丙子,을일과 경일은 병자시부터 시작한다,heavenly-stems.csv;earthly-branches.csv;gapja-combinations.csv
+byeong;sin,丙辛,mu,戊,戊子,병일과 신일은 무자시부터 시작한다,heavenly-stems.csv;earthly-branches.csv;gapja-combinations.csv
+jeong;im,丁壬,gyeong,庚,庚子,정일과 임일은 경자시부터 시작한다,heavenly-stems.csv;earthly-branches.csv;gapja-combinations.csv
+mu;gye,戊癸,im,壬,壬子,무일과 계일은 임자시부터 시작한다,heavenly-stems.csv;earthly-branches.csv;gapja-combinations.csv

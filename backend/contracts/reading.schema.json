@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NABOM I Ching Reading/Reflection Contract",
+  "type": "object",
+  "definitions": {
+    "cast_input": {
+      "type": "object",
+      "required": ["mode", "casts", "resolver"],
+      "properties": {
+        "mode": { "enum": ["record_reflection", "live_cast"] },
+        "casts": {
+          "type": "array",
+          "items": { "enum": [6, 7, 8, 9] },
+          "minItems": 6,
+          "maxItems": 6
+        },
+        "resolver": {
+          "type": "object",
+          "properties": {
+            "version": { "type": "string" },
+            "input_hash": { "type": "string" }
+          }
+        }
+      }
+    },
+    "reflection_context": {
+      "type": "object",
+      "required": ["period", "evidence_refs"],
+      "properties": {
+        "mode": { "enum": ["record_reflection"] },
+        "period": {
+          "type": "object",
+          "required": ["from", "to"],
+          "properties": {
+            "from": { "type": "string" },
+            "to": { "type": "string" }
+          }
+        },
+        "days_recorded": { "type": "integer" },
+        "mood": { "type": "object" },
+        "energy": { "type": "object" },
+        "tag_counts": { "type": "object" },
+        "goal_actions": { "type": "object" },
+        "relationship_event_count": { "type": "integer" },
+        "evidence_refs": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "reading_response": {
+      "type": "object",
+      "required": ["contract_version", "engine_version", "mode", "primary_hexagram", "resulting_hexagram", "raw_reading_internal_ref"],
+      "properties": {
+        "contract_version": { "type": "string" },
+        "engine_version": { "type": "string" },
+        "mode": { "enum": ["record_reflection", "live_cast"] },
+        "primary_hexagram": { "type": "object" },
+        "changing_lines": { "type": "array" },
+        "resulting_hexagram": { "type": "object" },
+        "interpretation_focus": { "type": "object" },
+        "themes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["topic"],
+            "properties": {
+              "topic": { "type": "string" },
+              "lens": { "type": "string" }
+            }
+          }
+        },
+        "source_refs": { "type": "array" },
+        "raw_reading_internal_ref": { "type": "string" }
+      }
+    }
+  },
+  "oneOf": [
+    { "$ref": "#/definitions/cast_input" },
+    { "$ref": "#/definitions/reflection_context" },
+    { "$ref": "#/definitions/reading_response" }
+  ]
+}

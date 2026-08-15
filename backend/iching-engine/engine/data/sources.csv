@@ -1,0 +1,7 @@
+﻿source_id,name,url,language,role,license
+zh_wikisource,Chinese Wikisource — 周易,https://zh.wikisource.org/wiki/周易,zh,primary_classical_text,CC BY-SA / public-domain underlying text
+ko_wikisource,Korean Wikisource — 역경,https://ko.wikisource.org/wiki/역경,ko,machine_translation_reference,Wikisource terms; verify before redistribution
+ctext,Chinese Text Project — Book of Changes,https://ctext.org/book-of-changes/ens,zh/en,cross_reference,Site-specific terms
+legge_sacred_texts,Sacred Texts — James Legge I Ching,https://www.sacred-texts.com/ich/ictoc.htm,en,public_domain_translation_reference,Public domain edition
+baharna_legge,Baharana — Legge with Ten Wings,https://baharna.com/iching/legge/,en,cross_reference,Editorial features © 2012–2018; do not redistribute copied text
+legge_structured_dataset,xalen-ephemeris — structured Legge dataset,https://github.com/vedika-io/xalen-ephemeris/tree/main/crates/xalen-iching,en,structured_translation_import,Check upstream repository license and preserve attribution

@@ -1,0 +1,15 @@
+source_code,title,applied_focus,direct_modules,applied_depth_percent,remaining_work
+classic-pungsu-yeokgyeong,풍수_역경의진리,순환과 위치 상징,season_context;direction_context,94,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-gungtongbogam,궁퉁보감,조후용신과 일간 월령별 희용,climate_adjustment;seasonal_use_god,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-japyeongjinjeon,자평진전,월령용신 격국 성패 상신,month_command;pattern_assessment;xiangshen,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-japyeongjeongsu,자평정수,병약 중화 월령 격국,disease_medicine;middle_way;pattern_rules,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-japyeong-ohhaeng-yeonhae,자평정수_오행대의_연해자평,자평과 오행 교차 검토,crosscheck;five_element_flow,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-gilhyung,길흉회피의지혜,길흉 표현 완화,plain_language_guardrail,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-jeokcheonsu-yugi,적천수_원문_유기주,오행 기세와 생극 원리,five_element_flow;strength,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-sammyeongtonghoe,삼명통회,종합 전거 격국 신살,source_weighting;stars_overlay;pattern_rules,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-japyeongjinjeon-jeongpan,자평진전_정판,자평진전 판본 대조,version_crosscheck;pattern_assessment,97,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-ohhaengdaeui,오행대의,오행 상징과 부억,element_symbolism;five_element_flow,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-jeokcheonsu-baekhwa,적천수_백화도해본,현대어 해설과 조건부 표현,plain_language_guardrail;modern_translation,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-japyeongjinjeon-pyeongju,자평진전_평주,평주 해석과 세부 보완,version_crosscheck;xiangshen;success_rescue,97,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-jeokcheonsu-cheonmi,적천수천미,심층 주석과 극단 상태,extreme_state;five_element_flow,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수
+classic-yeonhaejapyeong,연해자평,정격과 기본 격국,regular_patterns;pattern_rules,98,OCR 의심 라인 수동 교정과 학술 판본 대조 검수

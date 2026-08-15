@@ -1,0 +1,17 @@
+principle_code,source_code,classical_focus,modern_ko_summary,program_application,affected_tables,confidence
+gungtongbogam-climate-use-god,classic-gungtongbogam,조후용신,계절의 춥고 더움과 건조하고 습한 상태를 먼저 보정한 뒤 용신 후보를 좁힌다,월지 계절과 일간을 함께 보아 조후 보정 점수를 만든다,elements.csv;heavenly-stems.csv;earthly-branches.csv;classical-analysis-modules.csv,high
+japyeongjinjeon-month-command,classic-japyeongjinjeon,월령용신,명식 판단의 출발점은 월령이며 월령의 십성과 사주 전체의 생극으로 용신과 격을 판단한다,월지와 지장간을 우선 입력으로 삼아 격국 후보를 만든다,pillar-positions.csv;hidden-stems.csv;ten-god-stem-map.csv;classical-analysis-modules.csv,high
+japyeongjinjeon-success-rescue,classic-japyeongjinjeon,성패구응,좋은 구조도 손상되면 실패하고 나쁜 구조도 구제 요소가 있으면 살아난다,격국 후보마다 성립요소 손상요소 구제요소를 별도 필드로 산출한다,classical-analysis-modules.csv;analysis-output-fields.csv,high
+japyeongjinjeon-xiangshen,classic-japyeongjinjeon,상신,용신을 돕는 보조 핵심인 상신이 손상되면 격의 힘이 크게 약해진다,용신 후보와 별도로 보조 작동 요소를 표시한다,classical-analysis-modules.csv;analysis-output-fields.csv,high
+japyeongjinjeon-stars-priority,classic-japyeongjinjeon,성신우선순위,길성이나 신살은 격국과 생극 구조를 대신하지 못하며 보조 해석으로만 둔다,신살 출력은 구조 판단 후 부가 레이어로 배치한다,special-stars.csv;special-star-rules.csv;twelve-shinsal.csv;classical-analysis-modules.csv,high
+japyeongjeongsu-disease-medicine,classic-japyeongjeongsu,병약법,명식의 치우침을 병으로 보고 그 치우침을 완화하는 오행이나 십성을 약으로 본다,강약과 과다 부족을 산출하고 보완 후보를 병약 태그로 낸다,elements.csv;ten-god-rules.csv;classical-analysis-modules.csv,high
+japyeongjeongsu-middle-way,classic-japyeongjeongsu,중화,지나치게 강하거나 약한 한쪽 치우침을 피하고 균형 잡힌 흐름을 중시한다,오행과 십성 점수에 과다 부족 중화 상태를 붙인다,elements.csv;ten-god-traits.csv;classical-analysis-modules.csv,high
+japyeong-combined-crosscheck,classic-japyeong-ohhaeng-yeonhae,자평오행교차,자평식 격국 판단과 오행 생극 원리를 교차 검토해야 단편 판단을 줄일 수 있다,격국 결론에는 오행 균형 근거와 십성 근거를 함께 저장한다,classical-analysis-modules.csv;analysis-output-fields.csv,medium
+yeonhaejapyeong-regular-patterns,classic-yeonhaejapyeong,정격기초,재관인식살상겁록 등 기본 격의 판단은 일간과 월령 그리고 투출 여부를 함께 본다,정격 후보 산출 시 월지 지장간과 천간 투출을 함께 평가한다,hidden-stems.csv;ten-god-stem-map.csv;classical-analysis-modules.csv,medium
+jeokcheonsu-five-element-flow,classic-jeokcheonsu-yugi,오행기세,오행은 단순 개수보다 생극 흐름과 왕쇠의 방향으로 판단해야 한다,오행 점수에 생조 누설 극제 흐름을 추가한다,elements.csv;heavenly-stem-relationships.csv;earthly-branch-relationships.csv;classical-analysis-modules.csv,medium
+jeokcheonsu-modern-plain-language,classic-jeokcheonsu-baekhwa,현대어해설,고전 문구는 단정적 예언보다 원리 설명과 조건부 판단으로 현대어화해야 한다,결과 문장은 조건 근거 주의 순서로 생성한다,classical-analysis-modules.csv;analysis-output-fields.csv,high
+jeokcheonsu-cheonmi-depth,classic-jeokcheonsu-cheonmi,심층주석,왕한 것은 덜어내고 약한 것은 돕되 극단 상태는 일반 규칙과 다르게 처리한다,극왕 극약 상태를 별도 예외 태그로 둔다,elements.csv;classical-analysis-modules.csv,medium
+sammyeongtonghoe-compendium,classic-sammyeongtonghoe,종합전거,격국 신살 육친 운세 등 여러 전거를 넓게 모아 비교하는 종합 참고로 쓴다,개별 규칙에 고전 출처 신뢰도와 충돌 가능성을 표시한다,literature-sources.csv;classical-analysis-modules.csv,medium
+ohhaengdaeui-symbol-system,classic-ohhaengdaeui,오행상징,오행은 계절 방향 색 성질 관계로 확장되는 상징 체계다,오행 표의 색상 계절 방향 성향을 해석과 시각화 공통 축으로 둔다,elements.csv;classical-principles.csv,high
+gilhyung-language-guardrail,classic-gilhyung,길흉표현,길흉 판단은 행동 지침과 주의점으로 완화해 표현해야 하며 공포 조장형 단정은 피한다,위험 표현은 가능성 주의 보완 행동으로 변환한다,classical-analysis-modules.csv;analysis-output-fields.csv,medium
+pungsu-yeokgyeong-cycle-context,classic-pungsu-yeokgyeong,역경순환,천지 자연의 순환과 위치 맥락을 상징 해석의 배경으로 둔다,계절 방향 시간대 태그를 해석 맥락에 연결한다,elements.csv;earthly-branches.csv;classical-analysis-modules.csv,low

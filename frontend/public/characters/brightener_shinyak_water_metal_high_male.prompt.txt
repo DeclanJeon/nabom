@@ -1,0 +1,11 @@
+Use case: stylized-concept
+Asset type: NABOM profile character sprite
+Primary request: A single cute two-head-tall a Korean chibi man, tiny body, oversized round head. Everyday human who feels 명랑하고 드러내는. Holding a small paper lantern. a muted-gold pin on the cardigan.
+Scene/backdrop: Perfectly flat solid #00ff00 chroma-key background. No floor, shadow, gradient, reflection, texture, or scenery.
+Subject: One person only. softer posture, quieter face, slightly smaller presence. No extra characters.
+Style/medium: Cute Korean illustration, paper-cut warmth, clean edges, 2-head-tall chibi.
+Composition/framing: Centered full-body, generous padding, square 1:1, subject fully separated from the background.
+Lighting/mood: Soft studio light, no cast shadow.
+Color palette: terracotta, apricot, warm cream. Do not use #00ff00 anywhere on the subject.
+Constraints: no text, no watermark, no animals, no mythical beasts, no armor, no weapons.
+Avoid: photorealism, 3D render look, busy background, Chinese characters, fortune-telling symbols.

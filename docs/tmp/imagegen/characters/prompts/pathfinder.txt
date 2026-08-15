@@ -1,0 +1,11 @@
+Use case: stylized-concept
+Asset type: NABOM profile character sprite
+Primary request: A single cute two-head-tall Korean chibi adult, tiny body, oversized round head, sage-green hair clip, warm ivory skin, leaf-tea jacket, holding a tiny paper compass. Everyday human, not a plant god.
+Scene/backdrop: Perfectly flat solid #00ff00 chroma-key background. No floor, shadow, gradient, reflection, texture, or scenery.
+Subject: One person only. One foot stepping forward, looking toward a new path, curious smile.
+Style/medium: Cute Korean illustration, paper-cut warmth, clean edges, 2-head-tall chibi.
+Composition/framing: Centered full-body, generous padding, square 1:1, subject fully separated from the background.
+Lighting/mood: Soft warm studio light, no cast shadow.
+Color palette: sage green, leaf-tea, warm ivory. Do not use #00ff00 anywhere on the subject.
+Constraints: no text, no watermark, no extra characters, no animals, no mythical beasts, no plants as creatures, no armor, no weapons.
+Avoid: photorealism, 3D render look, busy background, floating props besides the compass.

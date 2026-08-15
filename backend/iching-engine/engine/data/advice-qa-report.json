@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "kind": "api-package-test-report",
+  "provider": "DeepSeek",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "model": "deepseek-v4-flash",
+  "results": {
+    "unitTests": 17,
+    "koreanLiveAdvice": "passed",
+    "englishLiveAdvice": "passed",
+    "missingKeyGuard": "passed",
+    "sourceBoundPrompt": "passed"
+  },
+  "security": {
+    "apiKeyPersisted": false,
+    "configuration": "DEEPSEEK_API_KEY environment variable"
+  },
+  "limitations": [
+    "Advice quality depends on the selected model and supplied reading evidence.",
+    "The engine does not treat generated advice as classical source text.",
+    "Medical, legal, financial, and safety decisions require qualified professionals."
+  ]
+}

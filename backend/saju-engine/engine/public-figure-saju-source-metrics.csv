@@ -1,0 +1,6 @@
+metric_code,ko_name,value,evidence
+public_figure_seed_rows,공개 인물 시드 행 수,1000,Hugging Face 공개 데이터셋 15000 Famous People Birth Date Location에서 1000명 추출
+source_license,데이터 라이선스,MIT,https://huggingface.co/datasets/vedastro-org/15000-Famous-People-Birth-Date-Location
+birth_time_coverage,출생시 공개 커버리지,1000,BirthTime.StdTime 기반 출생시 존재 행만 사용
+full_saju_status,전체 사주 산출 상태,partial,연주 일주 시주는 시드 계산했고 월주는 절기 기반 만세력 엔진 연결 필요
+occupation_enrichment_status,직업군 보강 상태,generated_748_of_1000_wikidata_matches,Wikidata exact English label 729건과 search birth-date/year refinement 19건으로 직업군 보강 CSV 생성

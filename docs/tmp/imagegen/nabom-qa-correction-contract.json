@@ -1,0 +1,9 @@
+{
+  "onboarding": {"total_steps": 8, "step_labels": ["소개", "이름 또는 닉네임", "생년월일", "출생시간", "출생지역", "중요 영역", "바꾸고 싶은 것", "이루고 싶은 것"]},
+  "app_shell": {"primary_routes": [{"label":"오늘의 나","path":"/today"},{"label":"내 프로필","path":"/profile"},{"label":"Weekly Mirror","path":"/mirror"},{"label":"나의 여정","path":"/journey"},{"label":"관계","path":"/relationships"},{"label":"그룹","path":"/groups"},{"label":"설정","path":"/settings"}]},
+  "mood": {"stored": "integer 1-5", "display_context": "optional mood_context", "mapping": {"1":"힘듦/불안함","2":"지침","3":"보통","4":"편안함","5":"행복함/설렘"}},
+  "fixture": {"today":"2026-08-12","signup":"2026-07-23","profile_001":"2026-07-23","report_start":"2026-07-23","report_end":"2026-08-12"},
+  "public_visibility": {"allowed": ["chibi","nickname","one_line_intro","approved_growth_theme","approved_photo"], "blocked_by_default": ["birth_datetime","daily_entries","emotion_records","evidence","ai_patterns","relationship_records","raw_journal"]},
+  "nfc_claim": {"unlinked": "login_then_claim", "linked_to_self": "show_active_status", "linked_to_other": "owner_verification_or_support_recovery_before_revoke", "replacement": "owner_initiated_revoke_then_new_token"},
+  "responsive": {"desktop": "2048x1152", "mobile": "390x844", "mobile_first_flows": ["auth","onboarding","today","journal","mirror_empty","mirror_partial","nfc_tap","nfc_claim","relationship_consent","group_detail","privacy_delete","growth_experiment"]}
+}

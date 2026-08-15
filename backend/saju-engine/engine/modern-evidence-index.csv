@@ -1,0 +1,25 @@
+evidence_id,source_code,topic_code,topic_ko,line_no,evidence_keyword,design_takeaway,applies_to,extraction_status
+modern-honja-01,modern-honja,ganji_basics,간지 기초,21,천간,간지와 천간지지를 초보자가 읽을 수 있는 기본 언어로 풀어 쓴다,modern-principles.csv;modern-analysis-modules.csv;analysis-output-fields.csv,indexed
+modern-honja-02,modern-honja,five_elements_learning,오행 학습,21,오행,오행을 성향 색상 계절 관계의 공통 해석 축으로 사용한다,modern-principles.csv;elements.csv;analysis-output-fields.csv,indexed
+modern-honja-03,modern-honja,ten_gods_social,십신 사회관계,7,마음,십신을 가족 직업 관계 욕구 같은 현대적 사회관계 언어로 변환한다,modern-principles.csv;modern-analysis-modules.csv;ten-god-traits.csv;analysis-output-fields.csv,indexed
+modern-honja-04,modern-honja,strength_use_god,신강신약과 용신,291,용신,신강신약을 단정 대신 조건과 균형 설명으로 제시한다,modern-principles.csv;modern-analysis-modules.csv;classical-seasonal-use-god-rules.csv;analysis-output-fields.csv,indexed
+modern-honja-05,modern-honja,combination_conflict,합충형파해,5,합,합충형파해를 사건 단정이 아니라 변화 압력과 대응 포인트로 설명한다,modern-principles.csv;modern-analysis-modules.csv;earthly-branch-relationships.csv;analysis-output-fields.csv,indexed
+modern-honja-06,modern-honja,consultation_language,상담형 표현,7,이직,취업 이직 재물 관계 결혼 같은 실제 상담 질문으로 분석 출력을 연결한다,modern-principles.csv;modern-analysis-modules.csv;analysis-output-fields.csv,indexed
+modern-nae-saju-01,modern-nae-saju,ganji_basics,간지 기초,4,천간,간지와 천간지지를 초보자가 읽을 수 있는 기본 언어로 풀어 쓴다,modern-principles.csv;modern-analysis-modules.csv;analysis-output-fields.csv,indexed
+modern-nae-saju-02,modern-nae-saju,five_elements_learning,오행 학습,73,오행,오행을 성향 색상 계절 관계의 공통 해석 축으로 사용한다,modern-principles.csv;elements.csv;analysis-output-fields.csv,indexed
+modern-nae-saju-03,modern-nae-saju,ten_gods_social,십신 사회관계,4,십신,십신을 가족 직업 관계 욕구 같은 현대적 사회관계 언어로 변환한다,modern-principles.csv;modern-analysis-modules.csv;ten-god-traits.csv;analysis-output-fields.csv,indexed
+modern-nae-saju-04,modern-nae-saju,strength_use_god,신강신약과 용신,1,# 나의 사주명리 — 정리본,신강신약을 단정 대신 조건과 균형 설명으로 제시한다,modern-principles.csv;modern-analysis-modules.csv;classical-seasonal-use-god-rules.csv;analysis-output-fields.csv,indexed
+modern-nae-saju-05,modern-nae-saju,combination_conflict,합충형파해,36,해,합충형파해를 사건 단정이 아니라 변화 압력과 대응 포인트로 설명한다,modern-principles.csv;modern-analysis-modules.csv;earthly-branch-relationships.csv;analysis-output-fields.csv,indexed
+modern-nae-saju-06,modern-nae-saju,consultation_language,상담형 표현,768,풀이,취업 이직 재물 관계 결혼 같은 실제 상담 질문으로 분석 출력을 연결한다,modern-principles.csv;modern-analysis-modules.csv;analysis-output-fields.csv,indexed
+modern-puli-01,modern-puli,ganji_basics,간지 기초,53,지지,간지와 천간지지를 초보자가 읽을 수 있는 기본 언어로 풀어 쓴다,modern-principles.csv;modern-analysis-modules.csv;analysis-output-fields.csv,indexed
+modern-puli-02,modern-puli,five_elements_learning,오행 학습,29,오행,오행을 성향 색상 계절 관계의 공통 해석 축으로 사용한다,modern-principles.csv;elements.csv;analysis-output-fields.csv,indexed
+modern-puli-03,modern-puli,ten_gods_social,십신 사회관계,31,마음,십신을 가족 직업 관계 욕구 같은 현대적 사회관계 언어로 변환한다,modern-principles.csv;modern-analysis-modules.csv;ten-god-traits.csv;analysis-output-fields.csv,indexed
+modern-puli-04,modern-puli,strength_use_god,신강신약과 용신,191,용신,신강신약을 단정 대신 조건과 균형 설명으로 제시한다,modern-principles.csv;modern-analysis-modules.csv;classical-seasonal-use-god-rules.csv;analysis-output-fields.csv,indexed
+modern-puli-05,modern-puli,combination_conflict,합충형파해,8,합,합충형파해를 사건 단정이 아니라 변화 압력과 대응 포인트로 설명한다,modern-principles.csv;modern-analysis-modules.csv;earthly-branch-relationships.csv;analysis-output-fields.csv,indexed
+modern-puli-06,modern-puli,consultation_language,상담형 표현,1,풀이,취업 이직 재물 관계 결혼 같은 실제 상담 질문으로 분석 출력을 연결한다,modern-principles.csv;modern-analysis-modules.csv;analysis-output-fields.csv,indexed
+modern-sulsul-01,modern-sulsul,ganji_basics,간지 기초,7,간지,간지와 천간지지를 초보자가 읽을 수 있는 기본 언어로 풀어 쓴다,modern-principles.csv;modern-analysis-modules.csv;analysis-output-fields.csv,indexed
+modern-sulsul-02,modern-sulsul,five_elements_learning,오행 학습,5,오행,오행을 성향 색상 계절 관계의 공통 해석 축으로 사용한다,modern-principles.csv;elements.csv;analysis-output-fields.csv,indexed
+modern-sulsul-03,modern-sulsul,ten_gods_social,십신 사회관계,7,마음,십신을 가족 직업 관계 욕구 같은 현대적 사회관계 언어로 변환한다,modern-principles.csv;modern-analysis-modules.csv;ten-god-traits.csv;analysis-output-fields.csv,indexed
+modern-sulsul-04,modern-sulsul,strength_use_god,신강신약과 용신,7,용신,신강신약을 단정 대신 조건과 균형 설명으로 제시한다,modern-principles.csv;modern-analysis-modules.csv;classical-seasonal-use-god-rules.csv;analysis-output-fields.csv,indexed
+modern-sulsul-05,modern-sulsul,combination_conflict,합충형파해,5,해,합충형파해를 사건 단정이 아니라 변화 압력과 대응 포인트로 설명한다,modern-principles.csv;modern-analysis-modules.csv;earthly-branch-relationships.csv;analysis-output-fields.csv,indexed
+modern-sulsul-06,modern-sulsul,consultation_language,상담형 표현,17,풀이,취업 이직 재물 관계 결혼 같은 실제 상담 질문으로 분석 출력을 연결한다,modern-principles.csv;modern-analysis-modules.csv;analysis-output-fields.csv,indexed

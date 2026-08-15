@@ -1,0 +1,13 @@
+month_branch_code,month_branch_hanja,month_branch_ko,start_solar_term_ko,approx_gregorian_window,season_note,source_tables
+in,寅,인,입춘,02-03..02-05,"봄의 시작, 목기 상승",earthly-branches.csv;classical-seasonal-use-god-rules.csv
+myo,卯,묘,경칩,03-05..03-07,"봄의 확장, 목기 정점",earthly-branches.csv;classical-seasonal-use-god-rules.csv
+jin,辰,진,청명,04-04..04-06,봄에서 여름으로 넘어가는 습토,earthly-branches.csv;classical-seasonal-use-god-rules.csv
+sa,巳,사,입하,05-05..05-07,"여름의 시작, 화기 상승",earthly-branches.csv;classical-seasonal-use-god-rules.csv
+o,午,오,망종,06-05..06-07,"여름의 정점, 화기 강함",earthly-branches.csv;classical-seasonal-use-god-rules.csv
+mi,未,미,소서,07-06..07-08,여름 말의 건조한 토,earthly-branches.csv;classical-seasonal-use-god-rules.csv
+sin,申,신,입추,08-07..08-09,"가을의 시작, 금기 상승",earthly-branches.csv;classical-seasonal-use-god-rules.csv
+yu,酉,유,백로,09-07..09-09,"가을의 정점, 금기 선명",earthly-branches.csv;classical-seasonal-use-god-rules.csv
+sul,戌,술,한로,10-08..10-10,가을 말의 건조한 토,earthly-branches.csv;classical-seasonal-use-god-rules.csv
+hae,亥,해,입동,11-07..11-09,"겨울의 시작, 수기 상승",earthly-branches.csv;classical-seasonal-use-god-rules.csv
+ja,子,자,대설,12-06..12-08,"겨울의 정점, 수기 강함",earthly-branches.csv;classical-seasonal-use-god-rules.csv
+chuk,丑,축,소한,01-05..01-07,겨울 말의 습토,earthly-branches.csv;classical-seasonal-use-god-rules.csv

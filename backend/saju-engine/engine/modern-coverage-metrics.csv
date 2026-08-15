@@ -1,0 +1,7 @@
+metric_code,ko_name,percent,evidence
+modern_source_registration,현대 원천 등록률,100,literature-sources.csv의 modern source 4개를 모두 사용
+modern_line_evidence,현대 라인 근거화,100,4개 현대 파일 x 6개 주제 라인 근거 색인
+modern_principle_translation,현대어 원칙화,92,12개 원칙으로 학습 상담 표현 사건성 색채를 반영
+modern_program_mapping,프로그램 모듈 매핑,90,10개 분석 모듈과 5개 출력 필드에 연결
+modern_design_documentation,설계문서 반영,95,modern-source-application.md와 v3-generation-rules.md에 반영
+modern_remaining_manual_review,남은 수동 정독 필요,8,대형 원문 전체의 문장별 의미 추출은 후속 세밀화 대상

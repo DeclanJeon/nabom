@@ -1,0 +1,11 @@
+concept_code,ko_name,hanja_name,concept_group,definition_summary,design_use,source_ref
+saju-palja,사주팔자,四柱八字,foundation,태어난 연월일시를 네 기둥과 여덟 글자로 보는 기본 구조,사용자 입력을 연주 월주 일주 시주로 분해하는 최상위 모델,/명리학/00_사주팔자란/intro.md
+four-pillars,사주,四柱,foundation,연주 월주 일주 시주 네 기둥,기둥별 캐릭터 해석 위치와 영향 범위 정의,/명리학/00_사주팔자란/intro.md
+eight-characters,팔자,八字,foundation,각 기둥의 천간과 지지를 합친 여덟 글자,천간 인간 캐릭터와 지지 동물 조합의 원천 데이터,/명리학/00_사주팔자란/intro.md
+year-pillar,연주,年柱,pillar,조상 사회적 배경 어린 시절의 기운,배경 장식이나 출신 맥락 태그로 사용,/명리학/02_천간/00_소개.md
+month-pillar,월주,月柱,pillar,부모 청년기 사회활동과 직업의 중심,직업 소품과 사회적 역할 가중치로 사용,/명리학/04_십성/00_소개.md
+day-pillar,일주,日柱,pillar,일간과 일지로 자신과 배우자궁의 핵심,대표 캐릭터 성향과 십성 산출 기준으로 사용,/명리학/02_천간/00_소개.md
+hour-pillar,시주,時柱,pillar,자녀 말년 미래 지향의 기운,후반부 성장형 장식이나 보조 동물 성향으로 사용,/명리학/02_천간/00_소개.md
+day-stem,일간,日干,derivation,나 자신을 대표하는 천간이며 십성 판단의 기준,십성 오버레이와 12운성 계산 기준,/명리학/02_천간/00_소개.md
+sexagenary-cycle,육십갑자,六十甲子,cycle,천간 10개와 지지 12개가 함께 순환하여 60개 조합을 이룸,기본 이미지 세트를 60갑자 x 남녀 2종으로 제한하는 근거,/명리학/02_천간/00_소개.md
+yin-yang,음양,陰陽,principle,양은 능동적 확산 음은 수용적 내면 기운,천간 지지 매칭과 성별 변주 분위기 보정에 사용,/명리학/02_천간/00_소개.md

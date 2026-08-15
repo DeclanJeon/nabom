@@ -1,0 +1,71 @@
+case_id,source_code,line_no,case_keyword,case_type,modernized_use,parse_status,target_tables
+classic-pungsu-yeokgyeong|case-01,classic-pungsu-yeokgyeong,4537,干支,rule_context_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-pungsu-yeokgyeong|case-02,classic-pungsu-yeokgyeong,2466,格局,rule_context_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-pungsu-yeokgyeong|case-03,classic-pungsu-yeokgyeong,401,五行,rule_context_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-pungsu-yeokgyeong|case-04,classic-pungsu-yeokgyeong,212,命,rule_context_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-pungsu-yeokgyeong|case-05,classic-pungsu-yeokgyeong,415,五行,rule_context_candidate,고전 예문 또는 규칙 맥락 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gungtongbogam|case-01,classic-gungtongbogam,542,此造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gungtongbogam|case-02,classic-gungtongbogam,150,一造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gungtongbogam|case-03,classic-gungtongbogam,505,命造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gungtongbogam|case-04,classic-gungtongbogam,4040,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gungtongbogam|case-05,classic-gungtongbogam,4859,富命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon|case-01,classic-japyeongjinjeon,6647,此造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon|case-02,classic-japyeongjinjeon,12707,一造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon|case-03,classic-japyeongjinjeon,627,命造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon|case-04,classic-japyeongjinjeon,12742,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon|case-05,classic-japyeongjinjeon,4499,男命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjeongsu|case-01,classic-japyeongjeongsu,861,此造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjeongsu|case-02,classic-japyeongjeongsu,3650,一造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjeongsu|case-03,classic-japyeongjeongsu,969,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjeongsu|case-04,classic-japyeongjeongsu,864,富命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjeongsu|case-05,classic-japyeongjeongsu,521,贫命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeong-ohhaeng-yeonhae|case-01,classic-japyeong-ohhaeng-yeonhae,4703,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeong-ohhaeng-yeonhae|case-02,classic-japyeong-ohhaeng-yeonhae,5961,富命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeong-ohhaeng-yeonhae|case-03,classic-japyeong-ohhaeng-yeonhae,5469,贫命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeong-ohhaeng-yeonhae|case-04,classic-japyeong-ohhaeng-yeonhae,4729,男命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeong-ohhaeng-yeonhae|case-05,classic-japyeong-ohhaeng-yeonhae,3561,女命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gilhyung|case-01,classic-gilhyung,387,命,rule_context_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gilhyung|case-02,classic-gilhyung,48,吉,rule_context_candidate,고전 예문 또는 규칙 맥락 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gilhyung|case-03,classic-gilhyung,890,吉,rule_context_candidate,고전 예문 또는 규칙 맥락 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gilhyung|case-04,classic-gilhyung,1207,吉,rule_context_candidate,고전 예문 또는 규칙 맥락 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-gilhyung|case-05,classic-gilhyung,1271,吉,rule_context_candidate,고전 예문 또는 규칙 맥락 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-yugi|case-01,classic-jeokcheonsu-yugi,66,命造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-yugi|case-02,classic-jeokcheonsu-yugi,838,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-yugi|case-03,classic-jeokcheonsu-yugi,1135,男命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-yugi|case-04,classic-jeokcheonsu-yugi,197,女命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-yugi|case-05,classic-jeokcheonsu-yugi,525,丙寅,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-sammyeongtonghoe|case-01,classic-sammyeongtonghoe,111,此造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-sammyeongtonghoe|case-02,classic-sammyeongtonghoe,26128,命造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-sammyeongtonghoe|case-03,classic-sammyeongtonghoe,2812,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-sammyeongtonghoe|case-04,classic-sammyeongtonghoe,5683,富命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-sammyeongtonghoe|case-05,classic-sammyeongtonghoe,3939,男命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-jeongpan|case-01,classic-japyeongjinjeon-jeongpan,1858,命造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-jeongpan|case-02,classic-japyeongjinjeon-jeongpan,1201,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-jeongpan|case-03,classic-japyeongjinjeon-jeongpan,905,女命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-jeongpan|case-04,classic-japyeongjinjeon-jeongpan,349,甲子,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-jeongpan|case-05,classic-japyeongjinjeon-jeongpan,1333,乙丑,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-ohhaengdaeui|case-01,classic-ohhaengdaeui,1062,甲子,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-ohhaengdaeui|case-02,classic-ohhaengdaeui,1068,丙寅,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-ohhaengdaeui|case-03,classic-ohhaengdaeui,1650,戊辰,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-ohhaengdaeui|case-04,classic-ohhaengdaeui,1115,己巳,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-ohhaengdaeui|case-05,classic-ohhaengdaeui,1110,壬申,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-baekhwa|case-01,classic-jeokcheonsu-baekhwa,2423,此造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-baekhwa|case-02,classic-jeokcheonsu-baekhwa,140,命造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-baekhwa|case-03,classic-jeokcheonsu-baekhwa,10333,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-baekhwa|case-04,classic-jeokcheonsu-baekhwa,12577,富命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-baekhwa|case-05,classic-jeokcheonsu-baekhwa,2788,男命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-pyeongju|case-01,classic-japyeongjinjeon-pyeongju,3782,命造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-pyeongju|case-02,classic-japyeongjinjeon-pyeongju,4905,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-pyeongju|case-03,classic-japyeongjinjeon-pyeongju,675,男命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-pyeongju|case-04,classic-japyeongjinjeon-pyeongju,3168,女命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-japyeongjinjeon-pyeongju|case-05,classic-japyeongjinjeon-pyeongju,592,甲子,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-cheonmi|case-01,classic-jeokcheonsu-cheonmi,203,此造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-cheonmi|case-02,classic-jeokcheonsu-cheonmi,74,命造,chart_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-cheonmi|case-03,classic-jeokcheonsu-cheonmi,3653,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-cheonmi|case-04,classic-jeokcheonsu-cheonmi,5313,男命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-jeokcheonsu-cheonmi|case-05,classic-jeokcheonsu-cheonmi,156,女命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-yeonhaejapyeong|case-01,classic-yeonhaejapyeong,590,贵命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-yeonhaejapyeong|case-02,classic-yeonhaejapyeong,2196,富命,outcome_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-yeonhaejapyeong|case-03,classic-yeonhaejapyeong,1403,男命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-yeonhaejapyeong|case-04,classic-yeonhaejapyeong,2536,女命,gender_case,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
+classic-yeonhaejapyeong|case-05,classic-yeonhaejapyeong,140,甲子,stem_branch_candidate,고전 예문 명조 후보로 색인하고 추후 네 기둥 원문 파싱과 해석 결과 비교에 사용,indexed_not_parsed,classical-pattern-rules.csv;analysis-output-fields.csv
