@@ -171,7 +171,13 @@ export const useNabomStore = create<NabomState>((set, get) => ({
       return true;
     } catch (error) {
       clearToken();
-      set({ authStatus: 'error', authError: errorMessage(error), session: null });
+      set({
+        authStatus: 'error',
+        authError: errorMessage(error),
+        session: null,
+        // 실패 시 로그인 화면으로 돌려 에러 메시지를 보여준다.
+        currentView: 'auth',
+      });
       return false;
     }
   },
