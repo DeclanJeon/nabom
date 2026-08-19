@@ -46,6 +46,9 @@ services:
       NABOM_GOOGLE_CLIENT_ID: ${NABOM_GOOGLE_CLIENT_ID:-}
       NABOM_GOOGLE_CLIENT_SECRET: ${NABOM_GOOGLE_CLIENT_SECRET:-}
       NABOM_GOOGLE_REDIRECT_URI: ${NABOM_GOOGLE_REDIRECT_URI:-}
+      # OAuth 콜백 후 브라우저가 돌아갈 공개 URL (기본값 localhost 금지)
+      NABOM_PUBLIC_APP_URL: ${NABOM_PUBLIC_APP_URL:-https://nabom.ponslink.com}
+      NABOM_PUBLIC_API_URL: ${NABOM_PUBLIC_API_URL:-https://nabom.ponslink.com}
       NABOM_MAIL_ENABLED: ${NABOM_MAIL_ENABLED:-0}
       NABOM_SMTP_ENV_FILE: ""
       SAJU_ENGINE_URL: http://127.0.0.1:8001
