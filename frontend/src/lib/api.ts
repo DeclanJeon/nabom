@@ -765,6 +765,18 @@ export const api = {
     });
   },
 
+  // Long-form journal (자유롭게 적어보기)
+  async upsertJournal(journal: {
+    date: string;
+    text: string;
+    tags: string[];
+  }): Promise<void> {
+    await request('/api/v1/living/journals', {
+      method: 'POST',
+      body: { ...journal, timezone: 'Asia/Seoul' },
+    });
+  },
+
   // Mirrors / reflections
   async listMirrors(): Promise<WeeklyMirror[]> {
     const res = await request<{ mirrors: WireMirror[] }>('/api/v1/living/mirrors');

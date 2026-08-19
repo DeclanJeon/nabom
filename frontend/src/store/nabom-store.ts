@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { api, clearToken, getToken, loadStoredSession } from '@/lib/api';
+import { kstDateString } from '@/lib/utils';
 import type {
   AppView,
   OnboardingData,
@@ -17,6 +18,9 @@ import type {
 } from '@/types/nabom';
 
 export type LoadStatus = 'idle' | 'loading' | 'ready' | 'error';
+
+// 마지막으로 hydrate를 완료한 토큰. 같은 토큰이면 세션당 1회만 서버 데이터를 불러온다.
+let hydratedForToken: string | null = null;
 
 interface NabomState {
   // Navigation
@@ -207,6 +211,10 @@ export const useNabomStore = create<NabomState>((set, get) => ({
       return;
     }
     if (get().hydrationStatus === 'loading') return;
+    // 같은 토큰이면 세션당 1회만 로드한다 — 뷰 전환마다 AppShell이 리마운트되어
+    // hydrate가 반복 호출되는데, 재조회는 네트워크 낭비 + 사용자 내비게이션과 경합한다.
+    const token = getToken();
+    if (hydratedForToken === token && get().hydrationStatus === 'ready') return;
     set({ hydrationStatus: 'loading' });
     try {
       const session = await api.me();
@@ -243,8 +251,10 @@ export const useNabomStore = create<NabomState>((set, get) => ({
         hydrationStatus: 'ready',
         ...(opts?.route === false ? {} : { currentView: nextView }),
       });
+      hydratedForToken = token;
     } catch {
       clearToken();
+      hydratedForToken = null;
       set({
         session: null,
         isOnboarded: false,
@@ -367,10 +377,12 @@ export const useNabomStore = create<NabomState>((set, get) => ({
     set({ reflectionGenerating: true, reflectionError: null });
     try {
       const today = new Date();
-      const periodTo = today.toISOString().slice(0, 10);
+      // 기록 날짜(Asia/Seoul)와 같은 기준으로 창을 계산한다. UTC로 계산하면
+      // KST 00:00~08:59에 오늘 기록이 창 밖으로 밀려 "기록 없음" 오류가 난다.
+      const periodTo = kstDateString(today);
       const from = new Date(today);
       from.setDate(from.getDate() - 6);
-      const periodFrom = from.toISOString().slice(0, 10);
+      const periodFrom = kstDateString(from);
       const { mirror, reflection } = await api.createReflection(periodFrom, periodTo);
       const experiments = await api.listExperiments().catch(() => get().experiments);
       set((s) => ({

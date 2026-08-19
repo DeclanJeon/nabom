@@ -17,6 +17,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Slider } from '@/components/ui/slider';
+import { api } from '@/lib/api';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -357,6 +358,19 @@ export default function Today() {
     if (!ok) {
       toast.error('기록을 저장하지 못했어요. 잠시 후 다시 시도해주세요.');
       return;
+    }
+
+    // 자유롭게 적어보기(저널)는 별도 저장한다 — 실패해도 체크인은 유지된다.
+    if (journalText.trim()) {
+      try {
+        await api.upsertJournal({
+          date: todayStr,
+          text: journalText.trim(),
+          tags: selectedTags,
+        });
+      } catch {
+        toast.error('일기를 저장하지 못했어요. 기록은 저장되었어요.');
+      }
     }
 
     setSubmittedMood(mood);
