@@ -163,7 +163,7 @@ export function AppShell({ initialView }: { initialView?: string }) {
     <div className="min-h-screen flex flex-col bg-background">
       {showNav && <AppNav />}
       <div className={`flex-1 ${showNav ? 'pb-20 md:pb-0' : ''}`}>
-        <AnimatePresence mode="wait">
+        <AnimatePresence initial={false} mode="sync">
           <motion.div
             key={effectiveView}
             variants={VIEW_VARIANTS}
