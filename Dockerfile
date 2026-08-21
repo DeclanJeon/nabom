@@ -20,7 +20,7 @@ COPY backend/ /app/backend/
 WORKDIR /app/backend
 
 EXPOSE 8001 8002 8080
-CMD ["sh", "-c", "\
+CMD sh -c "\
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8001 --app-dir saju-engine & \
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8002 --app-dir iching-engine & \
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8080 --app-dir nabom-api \
