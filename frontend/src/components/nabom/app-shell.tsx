@@ -101,10 +101,10 @@ export function AppShell({ initialView }: { initialView?: string }) {
   // - 마운트 직후: URL(initialView)이 진실. 스토어 뷰가 URL과 다르면 URL을 채택한다.
   //   (직접 URL 진입, back/forward, 로그인 후 새로고침 등). 비로그인 보호 뷰는 /auth로 replace.
   // - 이후 URL이 바뀌면(back/forward) URL을 채택하고 되받아치지 않는다.
-  // - 뷰가 내부에서 바뀌면(내비게이션) router.push로 URL을 따라가게 한다.
+  // - 뷰가 내부에서 바뀌면(내비게이션) History API로 URL만 갱신한다.
   // hydrate가 진행 중이어도 뷰 전환은 막지 않는다 — hydrate는 currentView를 건드리지 않는다.
   useEffect(() => {
-    const urlView = (initialView as AppView | undefined) ?? viewFromPath(pathname);
+    const urlView = viewFromPath(pathname) ?? (initialView as AppView | undefined);
     const state = useNabomStore.getState();
     if (!mounted.current) {
       mounted.current = true;
@@ -142,10 +142,13 @@ export function AppShell({ initialView }: { initialView?: string }) {
     prevViewRef.current = currentView;
     if (!viewChanged) return;
     const path = pathFromView(currentView as AppView);
-    if (path !== pathname) router.push(path);
+    if (path !== pathname) {
+      window.history.pushState({}, '', path);
+      window.dispatchEvent(new PopStateEvent('popstate'));
+    }
   }, [currentView, pathname, router, initialView]);
 
-  const routeView = (initialView as AppView | undefined) ?? viewFromPath(pathname);
+  const routeView = viewFromPath(pathname) ?? (initialView as AppView | undefined);
   const requestedView = urlInitialized ? currentView : (routeView ?? currentView);
   const effectiveView =
     !session && !PUBLIC_VIEWS.has(requestedView as AppView) ? 'auth' : requestedView;
