@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useNabomStore } from '@/store/nabom-store';
@@ -67,6 +67,7 @@ export function AppShell({ initialView }: { initialView?: string }) {
   //   이후에는 내부 뷰 변경 → push, URL 변경(back/forward) → URL 채택만 한다.
   // prevViewRef: 직전 렌더의 뷰. push는 "뷰가 내부에서 바뀌었을 때"만 한다.
   // lastPathRef: 마지막으로 처리한 URL 경로. 브라우저 back/forward 감지용.
+  const [urlInitialized, setUrlInitialized] = useState(false);
   const mounted = useRef(false);
   const prevViewRef = useRef(currentView);
   const lastPathRef = useRef(pathname);
@@ -120,6 +121,7 @@ export function AppShell({ initialView }: { initialView?: string }) {
           useNabomStore.setState({ currentView: urlView });
         }
       }
+      queueMicrotask(() => setUrlInitialized(true));
       return;
     }
     if (pathname !== lastPathRef.current) {
@@ -143,8 +145,10 @@ export function AppShell({ initialView }: { initialView?: string }) {
     if (path !== pathname) router.push(path);
   }, [currentView, pathname, router, initialView]);
 
+  const routeView = (initialView as AppView | undefined) ?? viewFromPath(pathname);
+  const requestedView = urlInitialized ? currentView : (routeView ?? currentView);
   const effectiveView =
-    !session && !PUBLIC_VIEWS.has(currentView as AppView) ? 'auth' : (currentView as string);
+    !session && !PUBLIC_VIEWS.has(requestedView as AppView) ? 'auth' : requestedView;
 
   const showNav =
     isOnboarded &&
@@ -158,10 +162,7 @@ export function AppShell({ initialView }: { initialView?: string }) {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       {showNav && <AppNav />}
-      <main
-        className={`flex-1 ${showNav ? 'pb-20 md:pb-0' : ''}`}
-        role="main"
-      >
+      <div className={`flex-1 ${showNav ? 'pb-20 md:pb-0' : ''}`}>
         <AnimatePresence mode="wait">
           <motion.div
             key={effectiveView}
@@ -174,7 +175,7 @@ export function AppShell({ initialView }: { initialView?: string }) {
             <ViewRenderer view={effectiveView} />
           </motion.div>
         </AnimatePresence>
-      </main>
+      </div>
     </div>
   );
 }
