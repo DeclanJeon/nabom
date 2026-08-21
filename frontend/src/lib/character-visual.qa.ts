@@ -1,4 +1,5 @@
 import { existsSync, readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import { CHARACTER_VISUALS, characterImagePath } from './character-visual';
 
@@ -11,7 +12,7 @@ require(codes.length === 5, `expected 5 archetypes, got ${codes.length}`);
 for (const code of codes) {
   const webPath = characterImagePath(code);
   require(webPath === `/characters/${code}.png`, webPath);
-  const disk = resolve(import.meta.dir, '../../public', webPath.slice(1));
+  const disk = resolve(fileURLToPath(new URL('.', import.meta.url)), '../../public', webPath.slice(1));
   require(existsSync(disk), `missing archetype fallback ${disk}`);
   const bytes = readFileSync(disk);
   require(bytes.length > 50_000, `${code} too small: ${bytes.length}`);

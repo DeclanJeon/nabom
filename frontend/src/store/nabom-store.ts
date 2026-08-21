@@ -98,11 +98,6 @@ interface NabomState {
   deleteAccountViaApi: () => Promise<boolean>;
   deleteRecordsViaApi: () => Promise<boolean>;
 
-  // Devices (기기 등록: 계정당 최대 5대)
-  devices: DeviceInfo[];
-  devicesLimit: number;
-  loadDevices: () => Promise<void>;
-  revokeDevice: (deviceId: string) => Promise<boolean>;
 }
 
 function errorMessage(error: unknown): string {
